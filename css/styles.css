@@ -25,6 +25,7 @@ h2 {
 
 .img-small {
    width:70px;
+   align:center;
 }
 
 td {
@@ -34,5 +35,5 @@ td {
 
 table {
    border:none;
-   align:center;
+   text-align:center;
 }
