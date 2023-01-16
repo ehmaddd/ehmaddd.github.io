@@ -1,0 +1,23 @@
+body {
+   background-color:powderblue;
+}
+
+hr {
+   border-style:none;
+   border-top: dotted 4px;
+   width:30%;
+   color:white;
+}
+
+h1 {
+   text-align: center;
+}
+
+#back-link img {
+   width:30px;
+   height:30px;
+}
+
+#img-table img {
+   width:70px;
+}
