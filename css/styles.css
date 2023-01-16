@@ -1,16 +1,21 @@
 body {
-   background-color:powderblue;
+   background-color:#F4D9E7;
 }
 
 hr {
    border-style:none;
    border-top: dotted 4px;
    width:30%;
-   color:white;
+   color:#0081B4;
 }
 
 h1 {
    text-align: center;
+   color:#0081B4;
+}
+
+h2 {
+   color:#0081B4;
 }
 
 #back-link img {
@@ -18,6 +23,15 @@ h1 {
    height:30px;
 }
 
-#img-table img {
+.img-small {
    width:70px;
+}
+
+td {
+  text-align:center;
+  border:none;
+}
+
+table {
+   border:none;
 }
