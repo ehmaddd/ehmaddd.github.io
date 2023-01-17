@@ -1,0 +1,69 @@
+body {
+   background-color:#F4D9E7;
+}
+
+h1, h2 {
+   color:#0081B4;
+}
+
+hr {
+   border-style:none;
+   border-top: dotted 4px;
+   width:30%;
+   color:#0081B4;
+}
+
+table, td {
+   border:none;
+}
+
+
+.img-small {
+   width:70px;
+   align:center;
+}
+
+
+#div1 {
+  background-color: yellow;
+  width: 100%;
+  height: fit-content;
+}
+
+#div2 {
+  width: 70%;
+  height: inherit;
+  float:left;
+  display: inline-block;
+}
+
+#div3 {
+  width: 30%;
+  height: inherit;
+  float:left;
+  display: inline-block;
+  text-align: center;
+}
+
+#dp {
+   width:200;
+   height:200;
+}
+
+#img-table {
+   text-align:center;
+   width:100%;
+}
+
+#left-pane {
+   width:inherit;
+}
+
+#lnk-img {
+   width:60%;
+}
+
+#right-pane {
+   width:inherit;
+   text-align:center;
+}
