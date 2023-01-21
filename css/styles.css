@@ -28,13 +28,15 @@ h3 {
 }
 
 hr {
+    border-bottom:none;
     border-top:6px dotted #EAF6F6;
-    width:20%;
-    margin: 40px auto 40px auto;
+    margin: 40px auto;
+    width:4%;
 }
 
 p {
     color:#40514E;
+    line-height: 2;
 }
 
 .bottom-cloud {
@@ -57,10 +59,15 @@ p {
     top:30px;
 }
 
+.bottom-container a:hover {
+    color:#EAF6F6;
+}
+
 .bottom-container p {
     position:relative;
     top:40px;
-    color:white;
+    color:#EAF6F6;
+    font-size: 0.75em;
 }
 
 .btn {
@@ -115,7 +122,6 @@ p {
     width:50%;
     margin: 50px auto 50px auto;
     text-align: left;
-    line-height: 2;
 }
 
 .top-cloud {
