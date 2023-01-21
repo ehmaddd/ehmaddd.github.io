@@ -1,0 +1,137 @@
+a {
+    color:#11999E
+}
+
+body {
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color:#66BFBF;
+    font-family: 'Sacramento', 'Lucida handwriting';
+    font-size: 3.625em;
+    margin: 20px auto 0 auto;
+}
+
+h2 {
+    color:#66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.0rem;
+    font-weight: normal;
+}
+
+h3 {
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border-top:6px dotted #EAF6F6;
+    width:20%;
+    margin: 40px auto 40px auto;
+}
+
+p {
+    color:#40514E;
+}
+
+.bottom-cloud {
+    bottom:400px;
+    left:200px;
+    position:absolute;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    height:130px;
+}
+
+.bottom-container a {
+    color:#11999E;
+    text-decoration:none;
+    font-family: sans-serif;
+    margin:30px 30px 30px auto;
+    position:relative;
+    top:30px;
+}
+
+.bottom-container p {
+    position:relative;
+    top:40px;
+    color:white;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position:relative;
+    top:30px;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.display-pic {
+    width:25%;
+}
+
+.graphic-pic {
+    width:35%;
+    float:right;
+    margin-left:30px;
+}
+
+.middle-container {
+    margin:auto auto 100px auto;
+}
+
+.mountain-pic {
+    position:relative;
+    top:-70px;
+}
+
+.skill-row {
+    width:50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.top-cloud {
+    position:absolute;
+    right:300px;
+    top:50px;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    padding-top:100px;
+    position:relative;
+}
+
+.web-pic {
+    width:35%;
+    float:left;
+    margin-right:40px;
+}
