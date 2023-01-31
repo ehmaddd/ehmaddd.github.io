@@ -7,17 +7,13 @@ function run(){
     document.querySelector(".img1").setAttribute("src", dice1);
     document.querySelector(".img2").setAttribute("src", dice2);
 
-    let flag = "./images/flag.png";
     if(random1>random2){
-        document.querySelector("#player1").setAttribute("src", flag);
-        document.querySelector("h1").innerText = "Player1 Wins";
+        document.querySelector("h1").innerHTML = "<i class='fa fa-flag' aria-hidden='true'></i> Player1 Wins!";
     }
     else if(random1<random2){
-        document.querySelector("h1").innerText = "Player2 Wins";
-        document.querySelector("#player2").setAttribute("src", flag);
+        document.querySelector("h1").innerHTML = "Player2 Wins! <i class='fa fa-flag' aria-hidden='true'></i>";
     }
     else {
-        document.querySelector("h1").innerText = "Tie";
-        document.querySelector("h1").style.display = "block";
+        document.querySelector("h1").innerText = "Draw!!!";
     }
 }

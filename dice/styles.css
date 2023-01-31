@@ -1,3 +1,8 @@
+.btn {
+  width:150px;
+  height:50px;
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -7,7 +12,10 @@
 .dice {
   text-align: center;
   display: inline-block;
+}
 
+.header {
+  text-align: center;
 }
 
 body {
@@ -15,12 +23,11 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 10px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 6rem;
+  font-size: 3rem;
   color: #4ECCA3;
-  display:inline;
 }
 
 p {
@@ -41,6 +48,6 @@ footer {
 
 }
 
-.flag-img {
-  width: 10%;
+.fa {
+  color:crimson;
 }
