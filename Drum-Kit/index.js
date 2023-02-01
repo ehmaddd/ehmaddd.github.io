@@ -3,35 +3,42 @@ var allButtons = document.querySelectorAll('.drum');
 for(let a=0; a<allButtons.length; a++){
     allButtons[a].addEventListener("click", function(){
         var buttonInnerHTML = this.innerHTML;
-        switch(buttonInnerHTML){
-            case 'w':
-                let aud1 = new Audio("./sounds/tom-1.mp3");
-                aud1.play();
-            break;
-            case 'a':
-                let aud2 = new Audio("./sounds/tom-2.mp3");
-                aud2.play();
-            break;
-            case 's':
-                let aud3 = new Audio("./sounds/tom-3.mp3");
-                aud3.play();
-            break;
-            case 'd':
-                let aud4 = new Audio("./sounds/tom-4.mp3");
-                aud4.play();
-            break;
-            case 'j':
-                let aud5 = new Audio("./sounds/snare.mp3");
-                aud5.play();
-            break;
-            case 'k':
-                let aud6 = new Audio("./sounds/crash.mp3");
-                aud6.play();
-            break;
-            case 'l':
-                let aud7 = new Audio("./sounds/kick-bass.mp3");
-                aud7.play();
-            break;
-        }
+        soundPlay(buttonInnerHTML);
     });
+}
+    document.addEventListener("keydown", function(event){
+        soundPlay(event.key);
+    });
+
+function soundPlay(buttonInnerHTML){
+    switch(buttonInnerHTML){
+        case 'w':
+            let tom1 = new Audio("./sounds/tom-1.mp3");
+            tom1.play();
+        break;
+        case 'a':
+            let tom2 = new Audio("./sounds/tom-2.mp3");
+            tom2.play();
+        break;
+        case 's':
+            let tom3 = new Audio("./sounds/tom-3.mp3");
+            tom3.play();
+        break;
+        case 'd':
+            let tom4 = new Audio("./sounds/tom-4.mp3");
+            tom4.play();
+        break;
+        case 'j':
+            let snare = new Audio("./sounds/snare.mp3");
+            snare.play();
+        break;
+        case 'k':
+            let crash = new Audio("./sounds/crash.mp3");
+            crash.play();
+        break;
+        case 'l':
+            let kick = new Audio("./sounds/kick-bass.mp3");
+            kick.play();
+        break;
+    }
 }
