@@ -7,6 +7,7 @@ body {
   max-width: 100%;
   height: auto;
   font-family: Inter, Arial, Helvetica, sans-serif;
+  overflow-x: auto;
 }
 
 .main-container {
@@ -270,7 +271,7 @@ p {
   }
 
   .touch-item2 {
-    margin-top: 25%;
+    height: 125%;
   }
 
   .about-me-flex {
