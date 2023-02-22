@@ -1,6 +1,3 @@
-* {
-  box-sizing: border-box;
-}
 
 /* BACKGROUND */
 body {
@@ -469,36 +466,12 @@ li {
   text-align: center;
 }
 
-.my-work {
-  grid-template-columns: auto auto;
-  gap: 10px;
-  border: 2px;
-  padding: auto 12px;
-  align-content: center;
-}
-
-.my-work > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  font-size: 30px;
-}
-
-.recent-works {
-  margin: 7% 1% 3% 1%;
-  text-align: center;
-}
-
 .my-task-row {
   width: 100%;
   flex-wrap: wrap;
-  align-content: stretch;
-  text-align: center;
-  justify-content: center;
 }
 
 .work-item {
-  width: 440px;
-  height: 474px;
   text-align: center;
   border: 1px solid  #d0d9d4;
   border-radius: 8px;
@@ -507,19 +480,17 @@ li {
 
 .work-item-grid {
   grid-template-columns: auto;
-  gap: 0;
-  grid-template-rows: 252px 222px;
-  padding-top: 0;
 }
 
 .work-image {
   border: 1px solid white;
   border-radius: 8px;
+  width: inherit;
 }
 
 .work-image img {
-  width: inhertit;
   height: 252px;
+  width: inherit;
 }
 
 .language-specs ul {
@@ -528,8 +499,6 @@ li {
 
 .recent-work-det {
   width: 100%;
-  display: flex;
-  gap: 2px;
 }
 
 .recent-work-det li {
@@ -537,7 +506,7 @@ li {
   background-color: #ebf0ee;
   line-height: 19px;
   font-size: small;
-  width: 70px;
+  width: 100%;
   border-color: #ebf0ee;
   border-radius: 4px;
   height: 30px;
