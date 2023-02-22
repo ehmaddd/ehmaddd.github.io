@@ -466,7 +466,7 @@ li {
   grid-template-columns: auto auto;
   gap: 10px;
   border: 2px;
-  padding: auto 12px 12px auto;
+  padding: auto 12px;
   align-content: center;
 }
 
