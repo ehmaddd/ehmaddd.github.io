@@ -190,6 +190,14 @@ textarea {
     justify-content: center;
     margin-left: 26%;
   }
+
+  input:focus {
+    border: 1px solid #44b0ff;
+  }
+
+  textarea:focus {
+    border: 1px solid #44b0ff;
+  }
 }
 
 /* --------------- l a p t o p ----------------------- */
@@ -243,7 +251,7 @@ textarea {
 }
 
 .see-project-btn:hover {
-  background-color: darkcyan;
+  box-shadow: #36b37e;
   cursor: pointer;
 }
 
@@ -266,7 +274,7 @@ textarea {
 }
 
 .see-resume-btn:hover {
-  background-color: darkcyan;
+  box-shadow: #36b37e;
 }
 
 .footer {
