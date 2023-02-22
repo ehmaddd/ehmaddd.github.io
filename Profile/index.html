@@ -34,18 +34,30 @@
             </nav>
         </header>
         <section class="flex-container top-portion main-container header-up">
-                <div class="intro-div"><h1 class="intro">Hey There. I'm Ahmad.</h1></div>
+                <div class="intro-div"><h1 class="intro">Hey there. I'm Ahmad</h1></div>
                 <div class="profession-div"><h1 class="profession">I'm a Full-stack Web Developer.</h1></div>
-                <div class="para"><p>I can help you build interactive and responsive websites. To be sure about the quality of my work, you may view my portfolio.</p></div>
+                <div class="para"><p>I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p></div>
         </section>
         <section class="lower-container social-links">
-            <ul class="icons">
-                <li><a href=#"><img src="./images/github.png"></a></li>
-                <li><a href=#"><img src="./images/i.png"><img src="./images/n.png"></a></li>
-                <li><a href=#"><img src="./images/v.png"></a></li>
-                <li><a href=#"><img src="./images/twitter.png"></a></li>
-                <li><a href=#"><img src="./images/m.png"></a></li>
-            </ul>          
+            <div class="top-link-mobile">
+                <ul class="icons">
+                    <li><a href=#"><img src="./images/twitter.png"></a></li>
+                    <li><a href=#"><img src="./images/in.png"></a></li>
+                    <li><a href=#"><img src="./images/M.png"></a></li>
+                    <li><a href=#"><img src="./images/github.png"></a></li>
+                    <li><a href=#"><img src="./images/V.png"></a></li>
+
+                </ul>    
+            </div>
+            <div class="top-link-desktop">
+                <ul class="icons">
+                    <li><a href=#"><img src="./images/github.png"></a></li>
+                    <li><a href=#"><img src="./images/i.png"><img src="./images/n.png"></a></li>
+                    <li><a href=#"><img src="./images/V.png"></a></li>
+                    <li><a href=#"><img src="./images/twitter.png"></a></li>
+                    <li><a href=#"><img src="./images/M.png"></a></li>
+                </ul>    
+            </div>      
         </section>
         <div class="down-arrow">
             <i class="fa-solid fa-chevron-down"></i>
@@ -234,46 +246,25 @@
     <section class="get-touch">
         <div class="flex-container about-touch">
             <div class="touch-flex-item touch-item">
-                <div><h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3></div>
+                <div><h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1></div>
             </div>
             <div class="touch-flex-item touch-item">
                 <div class="touch-class2">
-                    <form>
-                        <table class="form-table">
-                            <tr class="form-tr couple-tr">
-                                <td class="form-td"><input type="text" placeholder="First Name"></td>
-                                <td class="form-td"><input type="text" placeholder="Last Name"></td>
-                            </tr>
-                            <tr class="form-tr">
-                                <td colspan="2" class="form-td"><input id="email" type="email" placeholder="E mail address"></td>
-                            </tr>
-                            <tr class="form-tr">
-                                <td colspan="2" class="form-td"><textarea>Typing something</textarea></td>
-                            </tr>
-                            <tr class="form-tr">
-                                <td><button class="see-project-btn">Get in touch</button></td>
-                                <td></td>
-                            </tr>
-                        </table>
+                    <form action="https://formspree.io/f/moqzdnpo" method="post">
+                        <input type="text" name="first-name" placeholder="First Name">
+                        <input type="text" name="last-name" placeholder="Last Name">
+                        <input id="email" name="e-mail" type="email" placeholder="E mail address">
+                        <td colspan="2" name="message" class="form-td"><textarea>Typing something</textarea>
+                        <button class="see-project-btn">Get in touch</button>
                     </form>
                 </div>
                 <div class="touch-class3">
-                    <form>
-                        <table class="form-table">
-                            <tr class="form-tr couple-tr">
-                                <td class="form-td"><input type="text" placeholder="Full Name"></td>
-                            </tr>
-                            <tr class="form-tr">
-                                <td class="form-td"><input id="email" type="email" placeholder="E mail address"></td>
-                            </tr>
-                            <tr class="form-tr">
-                                <td class="form-td"><textarea>Typing something</textarea></td>
-                            </tr>
-                            <tr class="form-tr">
-                                <td align="center"><button class="see-project-btn">Get in touch</button></td>
-                                <td></td>
-                            </tr>
-                        </table>
+                    <form class="mob_form" action="https://formspree.io/f/moqzdnpo" method="post">
+                        <input type="text" name="full-name" maxlength="30" required 
+                         placeholder="Full Name">
+                        <input id="email" name="e-mail" required type="email" placeholder="Email address">
+                        <textarea name="message" maxlength="500" placeholder="Enter text here" required></textarea>
+                        <button class="see-project-btn mob_btn">Get in touch</button>
                     </form>
                 </div>
             </div>
@@ -294,13 +285,15 @@
         <div class="links-mobile">
             <ul class="icons">
                 <li><a href=#"><img src="./images/twitter.png"></a></li>
-                <li><a href=#"><img src="./images/i.png"><img src="./images/n.png"></a></li>
+                <li><a href=#"><img src="./images/in.png"></a></li>
                 <li><a href=#"><img src="./images/m.png"></a></li>
                 <li><a href=#"><img src="./images/github.png"></a></li>
                 <li><a href=#"><img src="./images/v.png"></a></li>
-                <p>ehmaddd@gmail.com</p>
             </ul>
         </div>     
     </section>
+    <div class="footer">
+        <p>ehmaddd@gmail.com</p>
+    </div>
 </body>
 </html>

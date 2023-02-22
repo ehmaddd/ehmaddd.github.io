@@ -9,6 +9,10 @@ body {
   font-family: Inter, Arial, Helvetica, sans-serif;
 }
 
+textarea {
+  border: 1px solid #60c095;
+}
+
 .flex-container {
   display: flex;
 }
@@ -17,13 +21,15 @@ body {
 
 /* main box */
 .top-portion {
-  margin-top: 5%;
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  box-sizing: border-box;
+}
+
+.social-links {
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .social-links a {
@@ -36,8 +42,6 @@ body {
 }
 
 .outer-container {
-  background-image: url("./images/background.png");
-  background-size: 100%;
   flex-direction: column;
   margin-top: 2%;
 }
@@ -66,7 +70,10 @@ p {
 .para {
   display: flex;
   justify-content: center;
-  padding: 0 3%;
+}
+
+.para p {
+  line-height: 1.8rem;
 }
 
 /* items inside nav-bar */
@@ -120,12 +127,20 @@ p {
     display: flex;
   }
 
-  .links-comp {
-    display: flex;
+  .top-link-mobile {
+    display: none;
+  }
+
+  .top-link-desktop {
+    display: block;
   }
 
   .links-mobile {
     display: none;
+  }
+
+  .links-comp {
+    display: block;
   }
 
   .hash-image-div {
@@ -135,13 +150,50 @@ p {
   .about-me-container {
     background-size: 100%;
   }
+
+  .get-touch {
+    background-image: url("./images/bg3.png");
+    background-size: 99%;
+    background-repeat: no-repeat;
+  }
+
+  .skill-flex-item {
+    width: 30%;
+  }
 }
 
 /* mobile first version */
+
 @media only screen and (max-width: 768px) {
+  .top-portion {
+    margin-top: 2%;
+  }
+
   /* hide normal navbar */
+
   .remove-nav-item {
     visibility: hidden;
+  }
+
+  .nav-bar {
+    margin-top: 0;
+    width: 90%;
+  }
+
+  .nav-bar .flex-item {
+    padding-left: 2%;
+  }
+
+  .outer-container {
+    background-image: url("./images/mobile-bg-top.png");
+    background-size: cover;
+    background-position-y: 60px;
+    background-repeat: no-repeat;
+  }
+
+  .profession-div,
+  .intro-div {
+    margin: 2% 10%;
   }
 
   .hash-image-div hr {
@@ -149,6 +201,23 @@ p {
     font-weight: bold;
     border-top: 3px solid #36b37e;
     margin: 5% auto;
+  }
+
+  .links-mobile ul {
+    padding: auto 20%;
+  }
+
+  .top-link-mobile {
+    padding: auto 15%;
+    display: flex;
+    align-items: center;
+  }
+
+  .top-link-mobile .icons {
+    margin-top: 0;
+    padding-bottom: 6%;
+    gap: 10%;
+    width: 90%;
   }
 
   /* show logo */
@@ -169,20 +238,49 @@ p {
     background-position: center;
   }
 
+  .para {
+    width: 100%;
+    padding: 15% 10% 10% 10%;
+  }
+
   /* flex items flow in column */
-  .about-me-flex,
   .my-task-row,
-  .view-skills-grid,
   .skill-flex-item,
   .touch-class1,
   .touch-class3,
   .touch-flex-item {
     flex: 100%;
+    margin-top: 25%;
+  }
+
+  .view-skills-grid {
+    padding-top: 0;
+    padding-left: 2%;
   }
 
   .touch-flex-item {
     height: 100px;
     margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-me-flex {
+    margin-top: 13%;
+  }
+
+  .my-work {
+    margin-top: -20%;
+  }
+
+  .about-me-grid {
+    margin-top: 3%;
+  }
+
+  .about-me-sub {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
   }
 
   .touch-class1,
@@ -196,17 +294,19 @@ p {
 
   .me-detail-grid {
     width: 100%;
-    padding: 0;
-    margin: 0;
+    margin-top: 6%;
+    padding-left: 6%;
+    line-height: 2rem;
   }
 
   .me-detail-grid p {
-    width: 475px;
+    width: 90%;
+    font-size: 21px;
   }
 
   .about-me-container {
-    background-size: 150%;
-    background-position: 0 300px;
+    background-image: url("./images/mobile-bg1.png");
+    justify-content: center;
   }
 
   .touch-class2 {
@@ -216,10 +316,26 @@ p {
   .touch-class3 {
     display: flex;
     padding: -15% 10%;
+    margin-top: 50%;
+  }
+
+  .get-touch {
+    background-image: url("./images/contact-form-mob.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    background-size: 10%;
+    background-position: 580px 0;
   }
 
   .touch-item {
-    height: 100px;
+    width: 90%;
+    margin-bottom: 2%;
+  }
+
+  .about-touch {
+    width: 75%;
   }
 
   .links-comp {
@@ -230,35 +346,27 @@ p {
     display: flex;
   }
 
-  .outer-container {
-    background-size: 150%;
-    background-repeat: no-repeat;
-    background-position: -100px 100px;
-  }
-
   .header-up {
-    margin-top: 15%;
+    margin-top: 20%;
     padding: auto 10%;
   }
 
-  .profession-div,
-  .intro-div {
-    margin: auto 15%;
+  .top-link-desktop {
+    display: none;
   }
 
   .top-portion .intro,
   .top-portion .profession {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .top-portion .intro-div,
   .top-portion .profession-div {
-    width: 70%;
+    width: 75%;
   }
 
-  .para {
-    width: 70%;
-    margin: 5% 15%;
+  .para p {
+    font-size: 1.4rem;
   }
 
   .down-arrow i {
@@ -280,8 +388,25 @@ p {
     display: inline;
   }
 
-  .get-touch {
-    margin: 0 15%;
+  .mob_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 25px;
+  }
+
+  .mob_form input {
+    height: 48px;
+  }
+
+  .mob_form textarea {
+    height: 114px;
+  }
+
+  .lower-links {
+    margin-top: 95%;
+    padding-left: 25%;
   }
 }
 
@@ -297,15 +422,15 @@ i {
 }
 
 ul {
-  margin-top: 2%;
   overflow: hidden;
   list-style-type: none;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 li {
   display: inline-block;
-  margin-left: 2%;
 }
 
 .lower-container a:hover {
@@ -331,7 +456,6 @@ li {
 }
 
 .grid-item {
-  padding: 20px;
   font-size: 30px;
   text-align: center;
 }
@@ -340,14 +464,13 @@ li {
   grid-template-columns: auto auto;
   gap: 10px;
   border: 2px;
-  padding: 12px;
+  padding: 0 12px 12px 12px;
   align-content: center;
 }
 
 .my-work > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 20px 0;
   font-size: 30px;
 }
 
@@ -377,7 +500,7 @@ li {
 }
 
 .work-item {
-  width: 395px;
+  width: 440px;
   height: 474px;
   text-align: center;
   border: 1px solid  #d0d9d4;
@@ -393,11 +516,12 @@ li {
 }
 
 .work-image {
-  background-color: #d0d9d4;
+  border: 1px solid white;
+  border-radius: 8px;
 }
 
 .work-image img {
-  width: 395px;
+  width: 437px;
   height: 252px;
 }
 
@@ -459,13 +583,13 @@ li {
   height: 50px;
 }
 
-.me-detail-grid p {
-  width: 70%;
-  margin: auto 10%;
+.see-resume-btn:hover {
+  background-color: darkcyan;
 }
 
 .see-project-btn:hover {
   background-color: darkcyan;
+  cursor: pointer;
 }
 
 .see-project {
@@ -476,39 +600,27 @@ li {
 
 /* Outer Div */
 .about-me-container {
-  background-image: url("./images/bg2.png");
   justify-content: center;
-  padding: 80px 0;
   background-repeat: no-repeat;
   width: 99%;
-  margin: auto;
-  display: flex;
   grid-template-rows: auto;
 }
 
 /* inner div */
 
 .skill-flex-item {
-  width: 30%;
-  height: 352px;
   text-align: center;
   border: 1px solid  #d0d9d4;
   background-color: #ebf0ee;
   border-radius: 8px;
   margin: 2% 0.5%;
+  height: 352px;
+  width: 93%;
+  padding-left: 4%;
 }
 
-.about-me-sub {
-  display: inline;
-  width: 85%;
-  gap: 0;
-  border-top: 0;
-}
-
-.about-me-grid,
 .about-me-sub,
-.see-btn-grid,
-.view-skill-grid {
+.see-btn-grid {
   margin: 0;
 }
 
@@ -525,13 +637,14 @@ li {
 }
 
 .skill-set {
+  margin-top: 6%;
   font-weight: 500;
 }
 
 .skill-det ul {
-  width: inherit;
+  width: 90%;
   display: inline-block;
-  padding: 3%;
+  padding: 2%;
   height: 130px;
   margin: 0;
   text-align: center;
@@ -553,11 +666,10 @@ li {
   text-align: center;
   margin: auto;
   padding: 2% 3%;
+  border-width: 3px;
 }
 
 .get-touch {
-  background-image: url("./images/bg3.png");
-  background-size: 104%;
   width: 100%;
   height: 400px;
 }
@@ -634,7 +746,7 @@ li {
 
 .touch-class3 textarea {
   width: 300px;
-  height: 70px;
+  height: 100px;
   color: black;
 }
 
@@ -642,14 +754,12 @@ li {
   width: 30%;
   text-align: center;
   border-radius: 8px;
-  margin: 2% 0.5%;
 }
 
 .about-touch {
   align-content: stretch;
   text-align: center;
   justify-content: center;
-  width: 70%;
   flex-wrap: wrap;
 }
 
@@ -658,9 +768,13 @@ li {
 }
 
 .lower-links li {
-  margin: 5px;
+  margin: 8px;
 }
 
 .links-mobile {
-  height: 230px;
+  height: 70px;
+}
+
+.footer {
+  text-align: center;
 }
