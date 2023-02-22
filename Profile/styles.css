@@ -17,19 +17,6 @@ textarea {
   display: flex;
 }
 
-h1 {
-  font-weight: 800;
-  font-size: 40px;
-  margin: 0%;
-}
-
-p {
-  text-align: center;
-  width: 100%;
-  margin-top: 2%;
-  font-size: large;
-}
-
 /* First Heading */
 .intro {
   color: #172b4d;
@@ -43,37 +30,25 @@ p {
 /* --------------- m o b i l e ----------------------- */
 
 @media only screen and (max-width: 375px) {
-  .main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-    gap: 30px;
+  h1,
+  h2 {
+    text-align: center;
   }
 
   .headline {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-image: url("./images/mobile-bg-top.png");
-    background-size: cover;
-    background-position-y: 30px;
+    background-size: contain;
     background-repeat: no-repeat;
-    top: 100px;
+    text-align: center;
   }
 
-  .headline ul {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    justify-content: center;
+  .headline h1 {
+    padding-top: 15%;
   }
 
-  .headline li {
-    list-style: none;
-    display: inline-flex;
-    margin-right: 15px;
+  .headline h2 {
+    margin-top: -5%;
   }
 
   .headline p {
@@ -83,23 +58,39 @@ p {
     line-height: 28px;
     color: #172b4d;
     width: 85%;
+    text-align: center;
+    margin: auto 7.5%;
+  }
+
+  .intro,
+  .profession {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
   }
 
   .recent-heading {
-    margin-top: 40%;
+    margin-top: 35px;
+    padding-left: 6%;
     text-align: center;
+    margin-bottom: 100px;
   }
 
-  .headline i {
-    border: solid 1px dimgrey;
-    padding: 12px;
-    border-radius: 80%;
-    margin-top: 200px;
+  .recent-heading p {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    width: 90%;
   }
 
-  h1,
-  h2 {
-    text-align: center;
+  .recent-work {
+    gap: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .work-sample {
+    flex: 100%;
   }
 
   .nav-bar {
@@ -127,15 +118,11 @@ p {
   }
 
   header {
-    position: fixed;
-    top: 0;
-    padding: 10px;
     display: flex;
     justify-content: space-between;
-    z-index: 99;
-    height: 40px;
     background-color: white;
     width: 100%;
+    padding-top: 5%;
   }
 
   .nav-bar a {
@@ -182,6 +169,12 @@ p {
   padding: 20px;
 }
 
+.recent-work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 /* SECOND SECTION */
 
 .grid-container {
@@ -195,17 +188,11 @@ p {
 }
 
 .see-project-btn {
-  background-color: #36b37f;
-  border: none;
-  color: white;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  border-radius: 8px;
-  width: 130px;
-  height: 50px;
+  padding: 17px 15px;
+  width: 122px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
 }
 
 .see-project-btn:hover {
@@ -217,14 +204,18 @@ p {
   background-color: #36b37f;
   border: none;
   color: white;
-  padding: 10px 10px;
+  padding: 12px 10px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
+  display: flex;
+  font-size: 19px;
   border-radius: 8px;
   width: 160px;
-  height: 50px;
+  height: 40px;
+  font-weight: 500;
+  line-height: 24px;
+  align-items: center;
+  justify-content: center;
 }
 
 .see-resume-btn:hover {
@@ -233,4 +224,173 @@ p {
 
 .footer {
   text-align: center;
+}
+
+.recent-work img {
+  height: 50%;
+  width: 100%;
+}
+
+.work-sample {
+  height: 520px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.work-sample h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.work-sample ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work-sample li {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  background: #ebf0ee;
+  border-left: 12px solid #ebf0ee;
+  border-right: 12px solid #ebf0ee;
+  border-radius: 4px;
+  padding: 6px, 12px;
+  width: auto;
+  height: 25px;
+}
+
+.headline ul {
+  display: flex;
+  flex-wrap: nowrap;
+  width: auto;
+  justify-content: center;
+}
+
+.headline li {
+  list-style: none;
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+.recent-work ul {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 90%;
+  justify-content: space-evenly;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 30px;
+}
+
+.recent-work li {
+  list-style: none;
+  display: flex;
+  padding-top: 8px;
+}
+
+.work-sample a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  padding: 5 10 5 10;
+}
+
+.work-sample ul {
+  margin-bottom: 50px;
+}
+
+.headline i {
+  border: solid 1px dimgrey;
+  padding: 12px;
+  border-radius: 80%;
+  margin-top: 85px;
+}
+
+.about-me h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #172b4d;
+  margin-top: 80px;
+  margin-bottom: 25px;
+}
+
+.about-me p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  width: 90%;
+}
+
+.top-about {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top-about h1,
+.top-about p {
+  position: relative;
+  display: inline-flex;
+}
+
+.detailed-me {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.about-me-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 327px;
+  height: 352px;
+  background-color: #ebf0ee;
+}
+
+.about-me-item ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  border-left: 12px solid #ebf0ee;
+  border-right: 12px solid #ebf0ee;
+  border-radius: 4px;
+  width: auto;
+  height: 25px;
+  list-style-type: none;
+  align-items: center;
+}
+
+.about-me-item li {
+  display: inline-flex;
+  flex-direction: row;
+  font-weight: 600;
+  background: #fff;
+  width: auto;
+  height: 40px;
+  padding: 6px 12px;
+  justify-content: space-between;
+  position: relative;
+  color: #36b37e;
+  border-radius: 8px;
 }
