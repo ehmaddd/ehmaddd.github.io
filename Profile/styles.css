@@ -12,6 +12,7 @@ body {
 
 .main-container {
   width: 100%;
+  margin: auto;
 }
 
 textarea {
@@ -278,10 +279,6 @@ p {
     margin-top: 13%;
   }
 
-  .my-work {
-    margin-top: -20%;
-  }
-
   .about-me-grid {
     margin-top: 3%;
   }
@@ -469,7 +466,7 @@ li {
   grid-template-columns: auto auto;
   gap: 10px;
   border: 2px;
-  padding: 0 12px 12px 12px;
+  padding: auto 12px 12px auto;
   align-content: center;
 }
 
