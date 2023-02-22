@@ -250,7 +250,6 @@ p {
   .touch-class3,
   .touch-flex-item {
     flex: 100%;
-    margin-top: 25%;
   }
 
   .view-skills-grid {
@@ -260,9 +259,14 @@ p {
 
   .touch-flex-item {
     height: 100px;
-    margin-bottom: 0%;
+    margin-bottom: 2%;
     display: flex;
     flex-direction: column;
+    width: 90%;
+  }
+
+  .touch-item2 {
+    margin-top: 25%;
   }
 
   .about-me-flex {
@@ -325,13 +329,9 @@ p {
     flex-direction: column;
     align-items: center;
     height: 450px;
-    background-size: 10%;
-    background-position: 580px 0;
-  }
-
-  .touch-item {
-    width: 90%;
-    margin-bottom: 2%;
+    background-size: 15%;
+    background-position: 100% 150%;
+    background-repeat: no-repeat;
   }
 
   .about-touch {
