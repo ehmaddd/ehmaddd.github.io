@@ -488,18 +488,6 @@ li {
   text-align: center;
 }
 
-.recent-work-det {
-  grid-column: span 2;
-  height: 50px;
-  margin-top: 2%;
-}
-
-.work-spec-items {
-  width: inherit;
-  height: 40px;
-  margin-top: -5%;
-}
-
 .my-task-row {
   width: 100%;
   flex-wrap: wrap;
@@ -530,7 +518,7 @@ li {
 }
 
 .work-image img {
-  width: 437px;
+  width: inhertit;
   height: 252px;
 }
 
@@ -538,26 +526,17 @@ li {
   list-style-type: none;
 }
 
-.work-specs h3 {
-  padding: 0;
-  font-size: larger;
-  display: inline;
-}
-
-.recent-work-det ul {
+.recent-work-det {
   width: 100%;
-  display: inline;
-  padding: 0;
-  height: 50px;
+  display: flex;
+  gap: 2px;
 }
 
 .recent-work-det li {
-  list-style: none;
   text-align: center;
   background-color: #ebf0ee;
   line-height: 19px;
   font-size: small;
-  padding: 2px;
   width: 70px;
   border-color: #ebf0ee;
   border-radius: 4px;
