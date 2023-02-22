@@ -333,7 +333,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 450px;
+    height: auto;
     background-size: 15%;
     background-position: 100% 150%;
     background-repeat: no-repeat;
