@@ -30,6 +30,23 @@ textarea {
 /* --------------- m o b i l e ----------------------- */
 
 @media only screen and (max-width: 375px) {
+  .logo h3 {
+    font-weight: 600px;
+    font-size: 20px;
+  }
+
+  .nav-bar li {
+    visibility: hidden;
+  }
+
+  .nav-bar {
+    padding-right: 10px;
+  }
+
+  .bars {
+    margin-top: 10px;
+  }
+
   h1,
   h2 {
     text-align: center;
@@ -93,10 +110,6 @@ textarea {
     flex: 100%;
   }
 
-  .nav-bar {
-    margin-top: 0;
-  }
-
   .flex-container {
     display: flex;
   }
@@ -110,24 +123,12 @@ textarea {
     font-weight: 700px;
   }
 
-  /* show logo */
-  #logo {
-    visibility: visible;
-    font-size: 20px;
-    font-weight: bold;
-  }
-
   header {
     display: flex;
     justify-content: space-between;
     background-color: white;
     width: 100%;
     padding-top: 5%;
-  }
-
-  .nav-bar a {
-    /* visibility: hidden; */
-    display: none;
   }
 
   .down-arrow i {
@@ -145,10 +146,49 @@ textarea {
 
   .mobile-form input {
     height: 48px;
+    width: 100%;
+    border-radius: 4px;
+    border-color: #d0d9d4;
+    border-style: solid;
   }
 
   .mobile-form textarea {
     height: 114px;
+    width: 100%;
+    border-radius: 4px;
+    border-color: #60c095;
+    border-style: solid;
+  }
+
+  .desktop-form {
+    display: none;
+  }
+
+  .in-touch h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+  }
+
+  .message-submit-btn {
+    background-color: #36b37f;
+    border: none;
+    color: white;
+    padding: 12px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 19px;
+    border-radius: 8px;
+    width: 160px;
+    height: 40px;
+    font-weight: 500;
+    line-height: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 26%;
   }
 }
 
@@ -156,10 +196,17 @@ textarea {
 
 /* tab and laptop */
 @media only screen and (max-width: 768px) {
-  /* hide logo */
-  #logo {
-    visibility: hidden;
-  }
+}
+
+.nav-bar {
+  display: flex;
+  margin-left: 4%;
+  margin-right: 7%;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  display: flex;
 }
 
 .down-arrow {
@@ -188,7 +235,7 @@ textarea {
 }
 
 .see-project-btn {
-  padding: 17px 15px;
+  padding: 13px 14px;
   width: 122px;
   height: 48px;
   background: #36b37f;
@@ -204,14 +251,14 @@ textarea {
   background-color: #36b37f;
   border: none;
   color: white;
-  padding: 12px 10px;
+  padding: 9px 10px;
   text-align: center;
   text-decoration: none;
   display: flex;
   font-size: 19px;
   border-radius: 8px;
-  width: 160px;
-  height: 40px;
+  width: 150px;
+  height: 37px;
   font-weight: 500;
   line-height: 24px;
   align-items: center;
@@ -313,6 +360,12 @@ textarea {
   margin-top: 85px;
 }
 
+.about-me {
+  background-image: url("./images/mobile-bg1.png");
+  background-repeat: no-repeat;
+  background-position-y: 90px;
+}
+
 .about-me h1 {
   font-weight: 700;
   font-size: 40px;
@@ -350,7 +403,9 @@ textarea {
 .detailed-me {
   display: grid;
   grid-template-columns: 1fr;
-  justify-content: center;
+  gap: 25px;
+  justify-items: center;
+  margin-top: 70px;
 }
 
 .about-me-item {
@@ -358,16 +413,32 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   width: 327px;
   height: 352px;
   background-color: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+}
+
+.detailed-me p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+}
+
+.about-me-item img {
+  margin-top: -30px;
+  position: relative;
 }
 
 .about-me-item ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: auto;
+  justify-items: center;
   font-weight: 600;
   font-size: 15px;
   line-height: 16px;
@@ -379,6 +450,9 @@ textarea {
   height: 25px;
   list-style-type: none;
   align-items: center;
+  padding: 0;
+  margin-top: -35px;
+  gap: 10px;
 }
 
 .about-me-item li {
@@ -387,10 +461,22 @@ textarea {
   font-weight: 600;
   background: #fff;
   width: auto;
-  height: 40px;
-  padding: 6px 12px;
-  justify-content: space-between;
+  height: 25px;
+  padding: 9px 12px 5px 12px;
   position: relative;
   color: #36b37e;
   border-radius: 8px;
+}
+
+.bottom-line ul {
+  display: flex;
+  flex-wrap: nowrap;
+  width: auto;
+  justify-content: center;
+}
+
+.bottom-line li {
+  list-style: none;
+  display: inline-flex;
+  margin-right: 20px;
 }

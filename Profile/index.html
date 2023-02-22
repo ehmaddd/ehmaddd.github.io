@@ -14,14 +14,15 @@
     <div class="main-container">
 
         <header>
-            <div id="logo">
-                Welcome
-            </div>
             <nav class="nav-bar">
-                    <a href="#">Portfolio</a>
-                    <a href="#">About</a>
-                    <a href="#">Contact</a>
-                <i class="fa-solid fa-bars"></i></i>
+                    <div id="logo"><h3>Welcome</h3></div>
+                        <ul>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <i class="fa-solid fa-bars"></i>
+                        </ul>
+                    </div>
             </nav>
         </header>
 
@@ -121,49 +122,46 @@
             <div class="top-about">
                 <h1>About me</h1>
                 <p>I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
-                <a href="#" class="see-resume-btn">Get my Resume</a>
+                <a href="#" class="see-resume-btn">Get My Resume</a>
             </div> 
             <div class="detailed-me">
                 <div class="about-me-item">
                     <img src="./images/lan-icon.png">
-                    Languages
+                    <p>Languages</p>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
-                        <li>PHP</li>
                     </ul>
                 </div>
                 <div class="about-me-item">
                     <img src="./images/frame-icon.png">
-                    Frameworks
+                    <p>Frameworks</p>
                     <ul>
                         <li>Node.js</li>
                         <li>Bootstrap</li>
                         <li>django</li>
-                        <li>Express</li>
                     </ul>
                 </div>
                 <div class="about-me-item">
                     <img src="./images/skill-icon.png">
-                    Skills
+                    <p>Skills</p>
                     <ul>
                         <li>Github</li>
                         <li>Terminal</li>
                         <li>Codepen</li>
-                        <li>Node.js</li>
                     </ul>
                 </div>
             </div>
         </section>
 
         <!-- GET IN TOUCH -->
-        <section>
+        <section class="in-touch">
             <div>
-                <h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
+                <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
             </div>
-            <div>
-                <form class="desktop-form" action="https://formspree.io/f/moqzdnpo" method="post">
+            <div class="desktop-form">
+                <form action="https://formspree.io/f/moqzdnpo" method="post">
                     <input type="text" name="first-name" placeholder="First Name">
                     <input type="text" name="last-name" placeholder="Last Name">
                     <input id="email" name="e-mail" type="email" placeholder="E mail address">
@@ -177,14 +175,14 @@
                          placeholder="Full Name">
                     <input id="email" name="e-mail" required type="email" placeholder="Email address">
                     <textarea name="message" maxlength="500" placeholder="Enter text here" required></textarea>
-                    <button class="see-project-btn mob_btn">Get in touch</button>
+                    <button class="message-submit-btn">Get in touch</button>
                 </form>
             </div>
         </section>
 
         <!--- LINKS -->
         <section>
-            <div>
+            <div class="bottom-line">
                 <ul>
                     <li><a href=#"><img src="./images/github.png"></a></li>
                     <li><a href=#"><img src="./images/in.png"></li>
