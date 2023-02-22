@@ -260,7 +260,6 @@ p {
 
   .view-skills-grid {
     padding-top: 0;
-    padding-left: 2%;
   }
 
   .touch-flex-item {
@@ -623,10 +622,8 @@ li {
   border: 1px solid  #d0d9d4;
   background-color: #ebf0ee;
   border-radius: 8px;
-  margin: 2% 0.5%;
   height: 352px;
   width: 93%;
-  padding-left: 4%;
 }
 
 .about-me-sub,
@@ -638,7 +635,7 @@ li {
   align-content: stretch;
   text-align: center;
   justify-content: center;
-  width: 100%;
+  width: 90%;
   flex-wrap: wrap;
 }
 
