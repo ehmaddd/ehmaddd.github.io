@@ -28,16 +28,16 @@
 
         <section class="headline">
             <h1 class="intro">Hey there. I'm Ahmad</h1>
-            <h2 class="profession">I'm a software developer.</h2>
+            <h2 class="profession">I'm a software developer</h2>
 
             <p>I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
 
             <ul>
-                <li><a href=#"><img src="./images/twitter.png"></a></li>
-                <li><a href=#"><img src="./images/in.png"></a></li>
-                <li><a href=#"><img src="./images/M.png"></a></li>
-                <li><a href=#"><img src="./images/github.png"></a></li>
-                <li><a href=#"><img src="./images/V.png"></a></li>
+                <li id="twitter"><a href=#"><img src="./images/twitter.png"></a></li>
+                <li id="linkedin"><a href=#"><img src="./images/in.png"></a></li>
+                <li id="m"><a href=#"><img src="./images/M.png"></a></li>
+                <li id="github"><a href=#"><img src="./images/github.png"></a></li>
+                <li id="v"><a href=#"><img src="./images/V.png"></a></li>
             </ul>
             <i class="fa-solid fa-chevron-down"></i>
         </section>
@@ -156,27 +156,31 @@
         </section>
 
         <!-- GET IN TOUCH -->
-        <section class="in-touch">
-            <div>
-                <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-            </div>
-            <div class="desktop-form">
-                <form action="https://formspree.io/f/moqzdnpo" method="post">
-                    <input type="text" name="first-name" placeholder="First Name">
-                    <input type="text" name="last-name" placeholder="Last Name">
-                    <input id="email" name="e-mail" type="email" placeholder="E mail address">
-                    <td colspan="2" name="message" class="form-td"><textarea>Typing something</textarea>
-                    <button class="see-project-btn">Get in touch</button>
-                </form>
-            </div>
-            <div>
-                <form class="mobile-form" action="https://formspree.io/f/moqzdnpo" method="post">
-                    <input type="text" name="full-name" maxlength="30" required 
-                         placeholder="Full Name">
-                    <input id="email" name="e-mail" required type="email" placeholder="Email address">
-                    <textarea name="message" maxlength="500" placeholder="Enter text here" required></textarea>
-                    <button class="message-submit-btn">Get in touch</button>
-                </form>
+        <section class="touch-div">
+            <div class="in-touch">
+                <div class="touch-text">
+                    <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+                </div>
+                <div class="desktop-form">
+                    <form action="https://formspree.io/f/moqzdnpo" method="post">
+                        <div id="full-name">
+                            <input id="first" type="text" name="first-name" placeholder="First Name">
+                            <input id="last" type="text" name="last-name" placeholder="Last Name">
+                        </div>
+                        <input id="email" name="e-mail" type="email" placeholder="E mail address">
+                        <textarea id="message" name="message" class="form-td">Typing something</textarea>
+                        <button id="touch-btn" class="see-project-btn">Get in touch</button>
+                    </form>
+                </div>
+                <div>
+                    <form class="mobile-form" action="https://formspree.io/f/moqzdnpo" method="post">
+                        <input type="text" name="full-name" maxlength="30" required 
+                            placeholder="Full Name">
+                        <input id="email" name="e-mail" required type="email" placeholder="Email address">
+                        <textarea name="message" maxlength="500" placeholder="Enter text here" required></textarea>
+                        <button class="message-submit-btn">Get in touch</button>
+                    </form>
+                </div>
             </div>
         </section>
 
