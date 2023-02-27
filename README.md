@@ -54,7 +54,7 @@ The core concepts of HTML, CSS and github were implemented.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo
+## 🚀 Live Demo <a name="live-demo">Demo</a>
 
 - [Live Demo Link](https://ehmaddd.github.io/)
 
