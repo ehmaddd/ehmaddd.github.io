@@ -54,9 +54,9 @@ The core concepts of HTML, CSS and github were implemented.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo
+## 🚀 Live Demo <a name="live-demo">Demo</a>
 
-- [Live Demo Link](https://github.com/ehmaddd/mobile-first-portfolio/)
+- [Live Demo Link](https://ehmaddd.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +125,7 @@ VS Code
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [Detailed Document](https://github.com/ehmaddd/mobile-first-portfolio/edit/main/README.md).
+Feel free to check the [Detailed Document](https://github.com/ehmaddd/ehmaddd.github.io/blob/main/README.md).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,6 +145,6 @@ I would like to thank microverse team, github team and my coding partners who co
 
 ## 📝 License <a name="license"></a>
 
-This project is copyright of [Ahmad]
+This project is copyright of [(https://github.com/ehmaddd/ehmaddd.github.io/blob/add-core-files/LICENSE.md)]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
