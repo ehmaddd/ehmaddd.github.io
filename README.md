@@ -3,7 +3,7 @@
 <div align="center">
 
   <h1><b>Muhammad Ahmad Saeed</b></h1>
-  <h3><b>Portfolio</b></h3>
+  <h3><b>[  Portfolio  ]</b></h3>
 
 </div>
 
@@ -56,15 +56,15 @@ The core concepts of HTML, CSS and github were implemented.
 
 ## 🚀 Live Demo
 
-- [Live Demo Link](https://github.com/ehmaddd/mobile-first-portfolio/)
+- [Live Demo Link](https://ehmaddd.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-You can open "Index.html" from this repository because it is the very first file of this project and it will lead you to the rest of data in the project.
+You can open the website by typing the link "ehmaddd.github.io" in the browser, because it is the very first file of this project and it will lead you to the rest of data in the project.
 
-To get a local copy up and running, follow these steps.
+To check for improvements, download a local copy and run, follow these steps.
 
 ### Prerequisites
 
@@ -145,6 +145,6 @@ I would like to thank microverse team, github team and my coding partners who co
 
 ## 📝 License <a name="license"></a>
 
-This project is copyright of [Ahmad]
+This project is copyright of <a href="https://github.com/ehmaddd/ehmaddd.github.io/blob/add-core-files/LICENSE.md">MIT License</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
