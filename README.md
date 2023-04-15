@@ -54,9 +54,9 @@ The core concepts of HTML, CSS and github were implemented.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo">Demo</a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://ehmaddd.github.io/)
+- [Live Demo Link](https://ehmaddd.github.io/mobile-first-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +93,10 @@ To run tests, run the following command:
 Open the code in Visual Studio Code and run the following commands :
 
 npx hint .
+
 npx stylelint "**/*.{css,scss}"
+
+npx eslint .
 
 ### Deployment
 
@@ -121,11 +124,15 @@ VS Code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributors <a name="contributors"></a>
 
-Contributions, issues, and feature requests are welcome!
+👤 Bright Eze
 
-Feel free to check the [Detailed Document](https://github.com/ehmaddd/ehmaddd.github.io/blob/main/README.md).
+- GitHub: [@githubhandle](https://github.com/brightbrain20)
+- Twitter: [@twitterhandle](https://twitter.com/BrightEzeamaka)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bright-ezeamaka-752837237/)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,6 +152,6 @@ I would like to thank microverse team, github team and my coding partners who co
 
 ## 📝 License <a name="license"></a>
 
-This project is copyright of [(https://github.com/ehmaddd/ehmaddd.github.io/blob/add-core-files/LICENSE.md)]
+This project is copyright of [Ahmad]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
