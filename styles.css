@@ -1615,18 +1615,6 @@ textarea:focus {
     height: 75%;
   }
 
-  .headline #github {
-    order: -2;
-  }
-
-  .headline #linkedin {
-    order: -1;
-  }
-
-  .headline #v {
-    order: -1;
-  }
-
   .headline ul {
     margin-top: -7px;
   }
