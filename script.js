@@ -40,12 +40,12 @@ const projects = [
     linkSource: 'https://github.com/ehmaddd/Movie-Show-API-Based',
   },
   {
-    image: ['./images/proj-1-1.png', './images/proj-1-2.png', './images/proj-1-3.png', './images/proj-1-4.png'],
-    title: 'Global Summit 2015',
-    languages: ['HTML5', 'CSS3', 'ES6'],
-    details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release.",
-    liveVersion: 'https://ehmaddd.github.io/online-conference/',
-    linkSource: 'https://github.com/ehmaddd/online-conference',
+    image: ['./images/budget-1.png', './images/budget-2.png', './images/budget-3.png', './images/budget-4.png'],
+    title: 'Budget App',
+    languages: ['Rails', 'CSS3', 'ES6'],
+    details: "This app is actually food budget management app, in which you can add the categories on which you want to spend and then deals can also be added into it mentioning the amount to spend on each deal individually. On the main page, you can also see the total spend amount of that category.",
+    liveVersion: 'https://budgetapp-6l76.onrender.com/',
+    linkSource: 'https://github.com/ehmaddd/BudgetApp',
   },
 ];
 
