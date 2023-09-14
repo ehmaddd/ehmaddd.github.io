@@ -5,6 +5,12 @@ body {
   overflow-x: auto;
 }
 
+.fa-solid:hover {
+  font-size: 1.5rem;
+  width: 1.5rem;
+  color: deeppink;
+}
+
 .main-container {
   margin: 0;
 }
@@ -16,7 +22,7 @@ body {
 }
 
 .social-link:hover {
-  width: 1.5rem;
+  transform: scale(1.2);
 }
 
 textarea {
