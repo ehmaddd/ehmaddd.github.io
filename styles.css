@@ -1028,9 +1028,9 @@ textarea:focus {
   .nav-bar {
     margin-top: 10px;
     margin-left: 30%;
-    position: absolute;
-    top: 15px;
-    width: 200px;
+    position: sticky;
+    top: 0;
+    width: 80%;
   }
 
   #panel {
@@ -1661,7 +1661,7 @@ textarea:focus {
   }
 
   .headline ul {
-    margin-top: -7px;
+    margin-top: 7rem;
   }
 
   .recent-heading p {
