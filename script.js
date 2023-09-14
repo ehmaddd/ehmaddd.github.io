@@ -119,7 +119,10 @@ for (let a = 0; a < btn.length; a += 1) {
     }
 
     document.querySelector('#see-live').href = projects[a].liveVersion;
+    document.querySelector('#see-live').target = '_blank';
+
     document.querySelector('#see-source').href = projects[a].linkSource;
+    document.querySelector('#see-source').target = '_blank';
   });
 }
 
