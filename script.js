@@ -42,7 +42,7 @@ const projects = [
   {
     image: ['./images/budget-1.png', './images/budget-2.png', './images/budget-3.png', './images/budget-4.png'],
     title: 'Budget App',
-    languages: ['Rails', 'CSS3', 'ES6'],
+    languages: ['RAILS', 'CSS3', 'ES6'],
     details: "This app is actually food budget management app, in which you can add the categories on which you want to spend and then deals can also be added into it mentioning the amount to spend on each deal individually. On the main page, you can also see the total spend amount of that category.",
     liveVersion: 'https://budgetapp-6l76.onrender.com/',
     linkSource: 'https://github.com/ehmaddd/BudgetApp',

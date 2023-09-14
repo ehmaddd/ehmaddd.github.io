@@ -9,6 +9,16 @@ body {
   margin: 0;
 }
 
+.top-link:hover {
+  font-size: 1.1rem;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.social-link:hover {
+  width: 1.5rem;
+}
+
 textarea {
   border: 1px solid #60c095;
 }
@@ -27,10 +37,26 @@ textarea {
   color: #36b37e;
 }
 
+#element4:hover {
+  background-color: green;
+  border: 1px solid red;
+  color: white;
+}
+
+.skills-item:hover {
+  background-color: grey;
+  color: greenyellow;
+  border: 1px solid greenyellow;
+  border-radius: 8px;
+}
+
 .nav-bar {
   display: flex;
   margin-left: 4%;
   margin-right: 7%;
+  position: sticky;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .nav-bar ul {
@@ -210,6 +236,11 @@ textarea {
   background-color: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.about-me-item:hover {
+  transform: scale(1.1);
 }
 
 .detailed-me p {
@@ -299,7 +330,18 @@ textarea:focus {
   border: 3px solid #60c095;
 }
 
+.desktop-form-btn:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 250px) and (max-width: 349px) {
+  .nav-bar {
+    position: sticky;
+  }
+
   #myModal img {
     margin-top: 2%;
     width: 99%;
@@ -1372,18 +1414,21 @@ textarea:focus {
 
   .nav-bar {
     padding-top: 20px;
-    position: absolute;
     left: 10%;
     top: 0;
     width: 70%;
+    position: sticky;
   }
 
   #panel {
     display: none;
   }
 
-  .work-sample img:hover {
-    transform: scale(1.1, 1.1);
+  .work-sample:hover {
+    transform: scale(1.1);
+    border: 3px solid blue;
+    border-radius: 3px;
+    background-color: white;
   }
 
   #myModal img {
@@ -1636,6 +1681,7 @@ textarea:focus {
   .work-sample {
     margin-left: 1%;
     margin-bottom: 2%;
+    transition: transform 0.2s;
   }
 
   .about-me {
