@@ -29,6 +29,11 @@ body {
   transform: scale(1.0);
 }
 
+.social-twitter:hover {
+  content: url('./images/twitgreen.png');
+  transform: scale(1.0);
+}
+
 .social-in:hover {
   content: url('./images/ingreen.png');
   transform: scale(1.0);
