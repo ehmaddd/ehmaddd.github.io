@@ -21,10 +21,12 @@ body {
 
 .top-link:hover {
   border-bottom: 3px solid #36b37e;
+  color: #36b37e;
 }
 
-.social-link:hover {
-  transform: scale(1.2);
+.social-git:hover {
+  content: url('./images/gitgreen.png');
+  transform: scale(1.0);
 }
 
 textarea {
