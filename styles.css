@@ -53,11 +53,12 @@ textarea {
   transform: scale(1.2);
 }
 
+.skills-item {
+  transition: transform 0.2s ease;
+}
+
 .skills-item:hover {
-  background-color: grey;
-  color: greenyellow;
-  border: 1px solid greenyellow;
-  border-radius: 8px;
+  transform: scale(1.2);
 }
 
 .nav-bar {
