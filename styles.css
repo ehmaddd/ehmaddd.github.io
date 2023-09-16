@@ -34,6 +34,11 @@ body {
   transform: scale(1.0);
 }
 
+.social-well:hover {
+  content: url('./images/vgreen.png');
+  transform: scale(1.0);
+}
+
 .social-in:hover {
   content: url('./images/ingreen.png');
   transform: scale(1.0);
