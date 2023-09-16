@@ -1817,14 +1817,14 @@ textarea:focus {
     background-color: #36b37f;
     border: none;
     color: white;
-    padding: 8px 15px;
+    padding: 17px 10px 6px 20px;
     text-align: center;
     text-decoration: none;
     display: flex;
     font-size: 19px;
     border-radius: 8px;
     width: 135px;
-    height: 40px;
+    height: 37px;
     font-weight: 500;
     line-height: 24px;
   }
