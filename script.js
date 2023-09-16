@@ -1,6 +1,6 @@
 const projects = [
   {
-    image: ['./images/proj-2-1.png',],
+    image: ['./images/coordinate.png',],
     title: 'Redux Coordinate Fetch App',
     languages: ['REACT', 'REDUX', 'CSS3'],
     details: "Redux Coordinate Fetch App is a website working with the real live data from AccuWeather API to build a web application for the use of general public that provide general info services. This application will allow users to view the coordinates of their required province.",
@@ -8,7 +8,7 @@ const projects = [
     linkSource: 'https://github.com/ehmaddd/react-coordinate-app',
   },
   {
-    image: ['./images/proj-4-1.png',],
+    image: ['./images/space.png',],
     title: 'Space Travelers Hub',
     languages: ['REACT', 'REDUX', 'CSS3'],
     details: "Space Traveler's Hub is a website that working with the real live data from SpaceX API to build a web application for a company that provides commercial and scientific space travel services. This application will allow users to book rockets and join selected space missions.",
@@ -16,7 +16,7 @@ const projects = [
     linkSource: 'https://github.com/ehmaddd/space-travelers-hub',
   },
   {
-    image: ['./images/proj-5-4.png',],
+    image: ['./images/math.png',],
     title: 'Math Magician',
     languages: ['REACT', 'ES6', 'CSS3'],
     details: "Math Magician is a Single Page Application which allows the user to have a real-time virtual interface of scientific calculator. It will allow the users to perform basic mathematical functions with the ease of quick access.",
@@ -24,7 +24,7 @@ const projects = [
     linkSource: 'https://github.com/ehmaddd/math-magician',
   },
   {
-    image: ['./images/proj-6-1.png', './images/proj-6-2.png', './images/proj-6-3.png', './images/proj-6-4.png'],
+    image: ['./images/book.png'],
     title: 'Bookstore',
     languages: ['REACT', 'CSS3', 'HTML5'],
     details: "Book Store is a Single Page Application which allows the user to have a detailed information about a book library as well as the book reading status. It allows user to keep track of a book read by anyone and also change the particulars and also deleting the book.",
@@ -32,7 +32,7 @@ const projects = [
     linkSource: 'https://github.com/ehmaddd/bookstore',
   },
   {
-    image: ['./images/proj-3-1.png', './images/proj-3-2.png', './images/proj-3-3.png', './images/proj-3-4.png'],
+    image: ['./images/movie.png'],
     title: 'Movie Show',
     languages: ['ES6', 'CSS3', 'HTML5'],
     details: "A website that allows users to interact with movies show information by extracting it from an API, like or comment them. We achieved that by using JavaScript objects , arrays and API. We also dynamically modified the DOM and added basic events",
@@ -40,7 +40,7 @@ const projects = [
     linkSource: 'https://github.com/ehmaddd/Movie-Show-API-Based',
   },
   {
-    image: ['./images/budget-1.png', './images/budget-2.png', './images/budget-3.png', './images/budget-4.png'],
+    image: ['./images/budget.png'],
     title: 'Budget App',
     languages: ['RAILS', 'CSS3', 'ES6'],
     details: "This app is actually food budget management app, in which you can add the categories on which you want to spend and then deals can also be added into it mentioning the amount to spend on each deal individually. On the main page, you can also see the total spend amount of that category.",
