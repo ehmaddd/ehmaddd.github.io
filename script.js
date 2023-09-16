@@ -1,6 +1,6 @@
 const projects = [
   {
-    image: ['./images/proj-2-1.png', './images/proj-2-2.png', './images/proj-2-3.png', './images/proj-2-4.png'],
+    image: ['./images/proj-2-1.png',],
     title: 'Redux Coordinate Fetch App',
     languages: ['REACT', 'REDUX', 'CSS3'],
     details: "Redux Coordinate Fetch App is a website working with the real live data from AccuWeather API to build a web application for the use of general public that provide general info services. This application will allow users to view the coordinates of their required province.",
@@ -8,7 +8,7 @@ const projects = [
     linkSource: 'https://github.com/ehmaddd/react-coordinate-app',
   },
   {
-    image: ['./images/proj-4-1.png', './images/proj-4-2.png', './images/proj-4-3.png', './images/proj-4-4.png'],
+    image: ['./images/proj-4-1.png',],
     title: 'Space Travelers Hub',
     languages: ['REACT', 'REDUX', 'CSS3'],
     details: "Space Traveler's Hub is a website that working with the real live data from SpaceX API to build a web application for a company that provides commercial and scientific space travel services. This application will allow users to book rockets and join selected space missions.",
@@ -16,7 +16,7 @@ const projects = [
     linkSource: 'https://github.com/ehmaddd/space-travelers-hub',
   },
   {
-    image: ['./images/proj-5-1.png', './images/proj-5-2.png', './images/proj-5-3.png', './images/proj-5-4.png'],
+    image: ['./images/proj-5-4.png',],
     title: 'Math Magician',
     languages: ['REACT', 'ES6', 'CSS3'],
     details: "Math Magician is a Single Page Application which allows the user to have a real-time virtual interface of scientific calculator. It will allow the users to perform basic mathematical functions with the ease of quick access.",
@@ -56,20 +56,7 @@ const modalUl = document.querySelector('#myModal ul');
 
 const works = document.querySelectorAll('.work-sample');
 for (let a = 0; a < works.length; a += 1) {
-    let count = 0;
-    let interval;
-    if(a===0 || a===3)
-    interval = 3500;
-    else
-    interval = 3500+(a*300);
-    setInterval(() => {
-      document.querySelectorAll('.work-sample img')[a].src = projects[a].image[count];
-      if (count < 3) {
-        count += 1;
-      } else {
-        count = 0;
-      }
-    }, interval);
+  document.querySelectorAll('.work-sample img')[a].src = projects[a].image[0];
 
   document.querySelectorAll('.work-sample h4')[a].innerHTML = projects[a].title;
   worksUl = document.querySelectorAll('.work-sample ul');
