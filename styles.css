@@ -5,10 +5,14 @@ body {
   overflow-x: auto;
 }
 
+.fa-solid {
+  color: black;
+}
+
 .fa-solid:hover {
   font-size: 1.5rem;
   width: 1.5rem;
-  color: deeppink;
+  color: #36b37e;
 }
 
 .main-container {
@@ -16,9 +20,7 @@ body {
 }
 
 .top-link:hover {
-  font-size: 1.1rem;
-  text-decoration: underline;
-  text-decoration-color: red;
+  border-bottom: 3px solid #36b37e;
 }
 
 .social-link:hover {
