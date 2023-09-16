@@ -45,10 +45,12 @@ textarea {
   color: #36b37e;
 }
 
+#element4 {
+  transition: transform 0.2s ease;
+}
+
 #element4:hover {
-  background-color: green;
-  border: 1px solid red;
-  color: white;
+  transform: scale(1.2);
 }
 
 .skills-item:hover {
