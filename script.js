@@ -86,23 +86,13 @@ for (let a = 0; a < works.length; a += 1) {
 const modal = document.getElementById('myModal');
 const btn = document.getElementsByClassName('see-project-btn');
 const span = document.getElementsByClassName('close')[0];
+const modalInterval = [];
 
 for (let a = 0; a < btn.length; a += 1) {
   btn[a].addEventListener('click', () => {
     modal.style.display = 'block';
 
-    //document.querySelector('#myModal img').src = projects[a].image;
-    //------------------
-      let count = 0;
-      setInterval(() => {
-        document.querySelector('#myModal img').src = projects[a].image[count];
-        if (count < 3) {
-          count += 1;
-        } else {
-          count = 0;
-        }
-      }, 3500);
-    //------------------
+    document.querySelector('#myModal img').src = projects[a].image[0];
 
     document.querySelector('#myModal p').innerHTML = projects[a].details;
     document.querySelector('#myModal h4').innerHTML = projects[a].title;
