@@ -44,7 +44,7 @@ body {
   transform: scale(1.0);
 }
 
-.social-in:hover {
+.social-mail:hover {
   content: url('./images/mailgreen.png');
   transform: scale(1.0);
 }
