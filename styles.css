@@ -1434,7 +1434,6 @@ textarea:focus {
 
   .work-sample:hover {
     transform: scale(1.1);
-    border: 3px solid blue;
     border-radius: 3px;
     background-color: white;
   }
