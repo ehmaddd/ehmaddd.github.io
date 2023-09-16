@@ -91,7 +91,6 @@ for (let a = 0; a < btn.length; a += 1) {
     for (let b = 0; b < projects[a].languages.length; b += 1) {
       const li = document.createElement('li');
       li.appendChild(document.createTextNode(projects[a].languages[b]));
-      // li.setAttribute("id", "element4");
       modalUl.appendChild(li);
     }
 

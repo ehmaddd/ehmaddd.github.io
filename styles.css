@@ -69,6 +69,7 @@ textarea {
 
 #element4 {
   transition: transform 0.2s ease;
+  padding-top: 1rem;
 }
 
 #element4:hover {
@@ -81,6 +82,10 @@ textarea {
 
 .skills-item:hover {
   transform: scale(1.2);
+}
+
+.skill-language {
+  background-color: rebeccapurple;
 }
 
 .nav-bar {
