@@ -44,6 +44,11 @@ body {
   transform: scale(1.0);
 }
 
+.social-in:hover {
+  content: url('./images/mailgreen.png');
+  transform: scale(1.0);
+}
+
 textarea {
   border: 1px solid #60c095;
 }
