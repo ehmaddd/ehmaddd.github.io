@@ -92,12 +92,12 @@ textarea {
 
 .nav-bar {
   display: flex;
-  margin-left: 4%;
-  margin-right: 7%;
+  width: 100%;
   position: sticky;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.9);
   z-index: 100;
+  text-align: center;
 }
 
 .nav-bar ul {
@@ -1061,10 +1061,14 @@ textarea:focus {
 
   .nav-bar {
     margin-top: 10px;
-    margin-left: 30%;
     position: sticky;
     top: 0;
-    width: 80%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-bar ul {
+    margin: auto;
   }
 
   #panel {
@@ -1302,10 +1306,6 @@ textarea:focus {
     margin-top: 4rem;
   }
 
-  .headline i {
-    margin-left: 29rem;
-  }
-
   .recent-heading {
     margin-top: 5rem;
   }
@@ -1450,7 +1450,7 @@ textarea:focus {
     padding-top: 20px;
     left: 10%;
     top: 0;
-    width: 70%;
+    width: 100%;
     position: sticky;
   }
 
