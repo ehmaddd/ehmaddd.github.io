@@ -5,14 +5,22 @@ body {
   overflow-x: auto;
 }
 
-.fa-solid {
+.recent-arrow i {
   color: black;
+  border: solid 1px dimgrey;
+  padding: 12px;
+  border-radius: 80%;
+  margin-top: 85px;
 }
 
-.fa-solid:hover {
+.recent-arrow i:hover {
   font-size: 1.5rem;
   width: 1.5rem;
   color: #36b37e;
+}
+
+.recent-arrow {
+  height: 28rem;
 }
 
 .main-container {
@@ -24,29 +32,13 @@ body {
   color: #36b37e;
 }
 
-.social-git:hover {
-  content: url('./images/gitgreen.png');
-  transform: scale(1.0);
+.social-links {
+  height: 3rem;
 }
 
-.social-twitter:hover {
-  content: url('./images/twitgreen.png');
-  transform: scale(1.0);
-}
-
-.social-well:hover {
-  content: url('./images/vgreen.png');
-  transform: scale(1.0);
-}
-
-.social-in:hover {
-  content: url('./images/ingreen.png');
-  transform: scale(1.0);
-}
-
-.social-mail:hover {
-  content: url('./images/mailgreen.png');
-  transform: scale(1.0);
+.social-links i,
+.bottom-line i {
+  color: grey;
 }
 
 textarea {
@@ -60,6 +52,7 @@ textarea {
 /* First Heading */
 .intro {
   color: #172b4d;
+  transition: transform 0.5s ease-in;
 }
 
 /* Second Heading */
@@ -255,13 +248,6 @@ textarea {
   color: white;
   font-size: 1.3rem;
   padding: 5px 10px 5px 10px;
-}
-
-.headline i {
-  border: solid 1px dimgrey;
-  padding: 12px;
-  border-radius: 80%;
-  margin-top: 85px;
 }
 
 .about-me-item {
@@ -1684,7 +1670,7 @@ textarea:focus {
   }
 
   .intro:hover {
-    font-size: 45px;
+    transform: scale(0.9);
   }
 
   .headline p {
