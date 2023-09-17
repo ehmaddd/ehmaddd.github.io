@@ -1047,6 +1047,7 @@ textarea:focus {
     top: 0;
     width: 100%;
     text-align: center;
+    margin-top: 1rem;
   }
 
   .nav-bar #logo,
@@ -1065,6 +1066,7 @@ textarea:focus {
   }
 
   .nav-bar ul {
+    width: 50%;
     margin: auto;
   }
 
@@ -1668,12 +1670,7 @@ textarea:focus {
     transition: height 2s;
   }
 
-  .headline i {
-    transition-timing-function: ease-in-out;
-    width: 1.7%;
-    margin-left: 49%;
-    margin-bottom: 550px;
-  }
+
 
   .intro:hover {
     transform: scale(0.9);
