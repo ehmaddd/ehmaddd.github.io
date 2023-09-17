@@ -1447,7 +1447,6 @@ textarea:focus {
 
   .nav-bar {
     padding-top: 20px;
-    left: 10%;
     top: 0;
     width: 100%;
     position: sticky;
@@ -1669,8 +1668,6 @@ textarea:focus {
     margin-bottom: 0;
     transition: height 2s;
   }
-
-
 
   .intro:hover {
     transform: scale(0.9);
