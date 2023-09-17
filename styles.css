@@ -5,6 +5,11 @@ body {
   overflow-x: auto;
 }
 
+.recent-arrow {
+  height: 28rem;
+  margin-top: auto;
+}
+
 .recent-arrow i {
   color: black;
   border: solid 1px dimgrey;
@@ -18,10 +23,6 @@ body {
   color: #36b37e;
   transform: scale(1.2);
   border: solid 1px #36b37e;
-}
-
-.recent-arrow {
-  height: 28rem;
 }
 
 .main-container {
@@ -88,16 +89,6 @@ textarea {
 
 .skill-language {
   background-color: rebeccapurple;
-}
-
-.nav-bar {
-  display: flex;
-  width: 100%;
-  position: sticky;
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.9);
-  z-index: 100;
-  text-align: center;
 }
 
 .nav-bar ul {
@@ -220,6 +211,13 @@ textarea {
   width: auto;
   height: 25px;
   margin-bottom: 50px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .headline ul {
@@ -936,11 +934,6 @@ textarea:focus {
     font-weight: 700;
   }
 
-  .down-arrow i {
-    font-size: 1rem;
-    font-weight: bold;
-  }
-
   .about-me {
     background-image: url("./images/mobile-bg1.png");
     background-size: 100%;
@@ -1044,6 +1037,14 @@ textarea:focus {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 999px) {
+  .nav-bar {
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-align: center;
+  }
+
   .nav-bar #logo,
   .nav-bar i {
     display: none;
@@ -1057,14 +1058,6 @@ textarea:focus {
 
   .nav-bar li {
     width: 7rem;
-  }
-
-  .nav-bar {
-    margin-top: 10px;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    text-align: center;
   }
 
   .nav-bar ul {
