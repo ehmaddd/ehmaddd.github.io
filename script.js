@@ -159,7 +159,7 @@ deskButton.addEventListener('click', (e) => {
   if (field.id === 'email') {
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     if (!emailRegex.test(value)) {
-      alert('Email should be in a valid format. Please try again after correction.');
+      alert('Email should be in a valid format');
       field.focus();
       return; // Stop further validation
     }
