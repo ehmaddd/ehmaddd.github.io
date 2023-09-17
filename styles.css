@@ -21,7 +21,7 @@ body {
 
 .recent-arrow i:hover {
   color: #36b37e;
-  transform: scale(1.2);
+  transform: translateY(10px);
   border: solid 1px #36b37e;
 }
 
