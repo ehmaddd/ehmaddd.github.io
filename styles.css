@@ -91,6 +91,11 @@ textarea {
   background-color: rebeccapurple;
 }
 
+.nav-bar {
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 100;
+}
+
 .nav-bar ul {
   list-style-type: none;
   display: flex;
