@@ -138,16 +138,44 @@ for (let i = 0; i < panelLinks.length; i += 1) {
 
 // Performing desktop form validation
 const deskButton = document.querySelector('#touch-btn');
-deskButton.addEventListener('click', () => {
-  const em = document.querySelector('#desktop-form #email');
-  if (em.value === String(em.value).toLowerCase()) {
-    document.querySelector('#desktop-form').action = 'https://formspree.io/f/moqzdnpo';
-    document.querySelector('#desktop-form').method = 'post';
-    document.querySelector('#desktop-form').submit();
-  } else {
-    document.querySelector('#desktop-validation').innerHTML = "<span class='material-symbols-outlined'>cancel</span><h3>e-mail should be in lower case. Please try again after correction</h3>";
+const form = document.querySelector('#desktop-form');
+const fields = form.querySelectorAll('input, textarea');
+let currentFieldIndex = 0; // Track the current field being validated
+
+deskButton.addEventListener('click', (e) => {
+  e.preventDefault();
+
+  const field = fields[currentFieldIndex];
+  const value = field.value.trim();
+
+  // Check if the field is required and empty
+  if (field.hasAttribute('required') && value === '') {
+    alert(`Please fill in the ${field.getAttribute('placeholder')} field.`);
+    field.focus();
+    return; // Stop further validation
+  }
+
+  // Additional validation for specific fields
+  if (field.id === 'email') {
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    if (!emailRegex.test(value)) {
+      alert('Email should be in a valid format. Please try again after correction.');
+      field.focus();
+      return; // Stop further validation
+    }
+  }
+
+  // Move to the next field
+  currentFieldIndex++;
+
+  // If all fields have been validated, submit the form
+  if (currentFieldIndex === fields.length) {
+    form.action = 'https://formspree.io/f/moqzdnpo';
+    form.method = 'post';
+    form.submit();
   }
 });
+
 
 // Performing mobile form validation
 const mobileButton = document.querySelector('#mob-touch-btn');
