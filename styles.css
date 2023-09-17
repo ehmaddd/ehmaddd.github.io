@@ -379,11 +379,13 @@ textarea:focus {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(35, 79, 119, 1);
   padding: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid white;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
   z-index: 1000;
-  height: 15rem;
   display: none;
   margin-top: 0;
   height: 200px;
@@ -410,7 +412,7 @@ textarea:focus {
 
 .social-linking a i {
   font-size: 24px;
-  color: dimgray;
+  color: white;
 }
 
 @media only screen and (min-width: 250px) and (max-width: 349px) {
