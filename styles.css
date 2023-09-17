@@ -11,12 +11,13 @@ body {
   padding: 12px;
   border-radius: 80%;
   margin-top: 85px;
+  transition: transform 0.2s ease-in;
 }
 
 .recent-arrow i:hover {
-  font-size: 1.5rem;
-  width: 1.5rem;
   color: #36b37e;
+  transform: scale(1.2);
+  border: solid 1px #36b37e;
 }
 
 .recent-arrow {
