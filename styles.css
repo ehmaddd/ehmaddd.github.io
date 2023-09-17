@@ -135,10 +135,12 @@ textarea {
 }
 
 .see-project-btn:hover {
-  background: #36b37f;
+  background: #fff;
+  color: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
   cursor: pointer;
+  border: 1px solid #36b37f;
 }
 
 .see-project-btn:active {
@@ -161,6 +163,7 @@ textarea {
   line-height: 24px;
   align-items: center;
   justify-content: center;
+  transition: transform 0.3s ease-in-out;
 }
 
 .see-resume-btn:hover {
@@ -168,6 +171,20 @@ textarea {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
   cursor: pointer;
+  animation: moveRightAndBack 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes moveRightAndBack {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px); /* Moves to the right */
+  }
+  100% {
+    transform: translateX(0); /* Comes back to its original position */
+  }
 }
 
 .see-resume-btn:active {
@@ -367,11 +384,17 @@ textarea:focus {
   border: 3px solid #60c095;
 }
 
+.desktop-form-btn {
+  transition: transform 0.3s ease-in-out;
+}
+
 .desktop-form-btn:hover {
   background: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
   cursor: pointer;
+  animation: moveRightAndBack 0.5s ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 .sticky-social-links {
