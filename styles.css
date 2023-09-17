@@ -374,6 +374,45 @@ textarea:focus {
   cursor: pointer;
 }
 
+.sticky-social-links {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  height: 15rem;
+  display: none;
+  margin-top: 0;
+  height: 200px;
+}
+
+.social-linking {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  margin-top: -150px;
+  height: 200px;
+}
+
+.social-linking i:hover{
+  color: #36b37e;
+  transform: scale(1.2);
+}
+
+.social-linking li {
+  margin-bottom: 10px;
+}
+
+.social-linking a i {
+  font-size: 24px;
+  color: dimgray;
+}
+
 @media only screen and (min-width: 250px) and (max-width: 349px) {
   .nav-bar {
     position: sticky;
@@ -1041,6 +1080,10 @@ textarea:focus {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 999px) {
+  .sticky-social-links {
+    display: flex;
+  }
+
   .nav-bar {
     margin-top: 10px;
     position: sticky;
@@ -1293,16 +1336,16 @@ textarea:focus {
     margin-top: 3rem;
   }
 
+  .headline ul {
+    margin-top: 1rem;
+  }
+
   .mobile-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 30px;
     gap: 25px;
-  }
-
-  .headline ul {
-    margin-top: 4rem;
   }
 
   .recent-heading {
@@ -1426,6 +1469,10 @@ textarea:focus {
 /* --------------- l a p t o p ----------------------- */
 
 @media only screen and (min-width: 1000px) {
+  .sticky-social-links {
+    display: flex;
+  }
+
   .nav-bar #logo,
   .nav-bar i {
     display: none;
@@ -1685,7 +1732,7 @@ textarea:focus {
   }
 
   .headline ul {
-    margin-top: 7rem;
+    margin-top: 0.2rem;
   }
 
   .recent-heading p {
