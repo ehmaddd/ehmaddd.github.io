@@ -38,7 +38,15 @@ body {
 
 .social-links i,
 .bottom-line i {
-  color: grey;
+  color:dimgray;
+  font-size: 1.5rem;
+  transition: transform 0.1s ease-in;
+}
+
+.social-links i:hover,
+.bottom-line i:hover {
+  color: #36b37e;
+  transform: scale(1.2);
 }
 
 textarea {
