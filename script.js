@@ -58,10 +58,15 @@ const projects = [
     linkSource: 'https://github.com/ehmaddd/Movie-Show-API-Based',
   },
   {
-    image: ['./images/budget.png'],
+    image: ['./images/budget.jpg'],
     title: 'Budget App',
     languages: ['RAILS', 'CSS3', 'ES6'],
-    details: "This app is food budget management app, in which you can add the categories on which you want to spend and then deals can also be added into it mentioning the amount to spend on each deal individually. On the main page, you can also see the total spend amount of that category.",
+    details: `This app is budget management app, in which you can estimatate the monthly food budget.<br>
+    <br>
+    The key features are :<br>
+    &nbsp;&nbsp;&nbsp;* Add the categories<br>
+    &nbsp;&nbsp;&nbsp;* Add deals for each category<br>
+    &nbsp;&nbsp;&nbsp;* Spent amount total`,
     liveVersion: 'https://budgetapp-6l76.onrender.com/',
     linkSource: 'https://github.com/ehmaddd/BudgetApp',
   },
