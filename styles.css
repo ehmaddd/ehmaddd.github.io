@@ -25,6 +25,13 @@ body {
   border: solid 1px #36b37e;
 }
 
+.tech-heading {
+  text-align: left;
+  margin-bottom: -0.7rem;
+  margin-top: 2.5rem;
+  font-size: 1rem;
+}
+
 .main-container {
   margin: 0;
 }

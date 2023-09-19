@@ -1,9 +1,9 @@
 const projects = [
   {
-    image: ['./images/coordinate.png',],
+    image: ['./images/coordinate.jpg',],
     title: 'Redux Coordinate Fetch App',
     languages: ['REACT', 'REDUX', 'CSS3'],
-    details: "Redux Coordinate Fetch App is a website working with the real live data from AccuWeather API to build a web application for the use of general public that provide general info services. This application will allow users to view the coordinates of their required province.",
+    details: `<br><br>Redux Coordinate Fetch App is a website fetches data for major cities for the selected province.<br><br>The main features include :<br>&nbsp;&nbsp;&nbsp;* Working with live data from AccuWeather<br>&nbsp;&nbsp;&nbsp;* Use of API to fetch data<br>&nbsp;&nbsp;&nbsp;* Provides latitude and longitude info`,
     liveVersion: 'https://react-coordinate-app.onrender.com/',
     linkSource: 'https://github.com/ehmaddd/react-coordinate-app',
   },
@@ -11,7 +11,11 @@ const projects = [
     image: ['./images/space.png',],
     title: 'Space Travelers Hub',
     languages: ['REACT', 'REDUX', 'CSS3'],
-    details: "Space Traveler's Hub is a website that working with the real live data from SpaceX API to build a web application for a company that provides commercial and scientific space travel services. This application will allow users to book rockets and join selected space missions.",
+    details: `Space Traveler's Hub is a web application allows to book/cancel rockets and join/leave for space mission.<br><br>
+    The key features are :<br>
+    * Based on Rest API<br>
+    * Data fetch from SpaceX APIspace travel services<br>
+    * Local State management<br>`,
     liveVersion: 'https://react-redux-group-project-green.vercel.app/',
     linkSource: 'https://github.com/ehmaddd/space-travelers-hub',
   },
@@ -19,7 +23,7 @@ const projects = [
     image: ['./images/math.png',],
     title: 'Math Magician',
     languages: ['REACT', 'ES6', 'CSS3'],
-    details: "Math Magician is a Single Page Application which allows the user to have a real-time virtual interface of scientific calculator. It will allow the users to perform basic mathematical functions with the ease of quick access.",
+    details: "Math Magician is a Single Page Application which allows the user to have a real-time virtual interface of scientific calculator. It will allow the users to perform basic mathematical functions with ease and quick access.",
     liveVersion: 'https://math-magician-k8i5.onrender.com/',
     linkSource: 'https://github.com/ehmaddd/math-magician',
   },
@@ -43,7 +47,7 @@ const projects = [
     image: ['./images/budget.png'],
     title: 'Budget App',
     languages: ['RAILS', 'CSS3', 'ES6'],
-    details: "This app is actually food budget management app, in which you can add the categories on which you want to spend and then deals can also be added into it mentioning the amount to spend on each deal individually. On the main page, you can also see the total spend amount of that category.",
+    details: "This app is food budget management app, in which you can add the categories on which you want to spend and then deals can also be added into it mentioning the amount to spend on each deal individually. On the main page, you can also see the total spend amount of that category.",
     liveVersion: 'https://budgetapp-6l76.onrender.com/',
     linkSource: 'https://github.com/ehmaddd/BudgetApp',
   },
