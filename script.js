@@ -20,7 +20,7 @@ const projects = [
     linkSource: 'https://github.com/ehmaddd/space-travelers-hub',
   },
   {
-    image: ['./images/math1.jpg',],
+    image: ['./images/math.jpg',],
     title: 'Math Magician',
     languages: ['REACT', 'ES6', 'CSS3'],
     details: `Math Magician is a Single Page Application which allows the the use of virtual calculator.<br>
