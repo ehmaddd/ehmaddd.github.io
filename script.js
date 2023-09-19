@@ -8,22 +8,26 @@ const projects = [
     linkSource: 'https://github.com/ehmaddd/react-coordinate-app',
   },
   {
-    image: ['./images/space.png',],
+    image: ['./images/space.jpg',],
     title: 'Space Travelers Hub',
     languages: ['REACT', 'REDUX', 'CSS3'],
     details: `Space Traveler's Hub is a web application allows to book/cancel rockets and join/leave for space mission.<br><br>
     The key features are :<br>
-    * Based on Rest API<br>
-    * Data fetch from SpaceX APIspace travel services<br>
-    * Local State management<br>`,
+    &nbsp;&nbsp;&nbsp;* Based on Rest API<br>
+    &nbsp;&nbsp;&nbsp;* Data fetch from SpaceX APIspace travel services<br>
+    &nbsp;&nbsp;&nbsp;* Local State management<br>`,
     liveVersion: 'https://react-redux-group-project-green.vercel.app/',
     linkSource: 'https://github.com/ehmaddd/space-travelers-hub',
   },
   {
-    image: ['./images/math.png',],
+    image: ['./images/math1.jpg',],
     title: 'Math Magician',
     languages: ['REACT', 'ES6', 'CSS3'],
-    details: "Math Magician is a Single Page Application which allows the user to have a real-time virtual interface of scientific calculator. It will allow the users to perform basic mathematical functions with ease and quick access.",
+    details: `Math Magician is a Single Page Application which allows the the use of virtual calculator.<br>
+    <br>The key features are :<br>
+    &nbsp;&nbsp;&nbsp;* Basic mathematical calculations<br>
+    &nbsp;&nbsp;&nbsp;* Display of quotation<br>
+    &nbsp;&nbsp;&nbsp;* Based on Rest API`,
     liveVersion: 'https://math-magician-k8i5.onrender.com/',
     linkSource: 'https://github.com/ehmaddd/math-magician',
   },
