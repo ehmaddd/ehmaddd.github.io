@@ -25,25 +25,35 @@ const projects = [
     languages: ['REACT', 'ES6', 'CSS3'],
     details: `Math Magician is a Single Page Application which allows the the use of virtual calculator.<br>
     <br>The key features are :<br>
-    &nbsp;&nbsp;&nbsp;* Basic mathematical calculations<br>
-    &nbsp;&nbsp;&nbsp;* Display of quotation<br>
+    &nbsp;&nbsp;&nbsp;* Performing Basic mathematical calculations<br>
+    &nbsp;&nbsp;&nbsp;* Displaying quotation<br>
     &nbsp;&nbsp;&nbsp;* Based on Rest API`,
     liveVersion: 'https://math-magician-k8i5.onrender.com/',
     linkSource: 'https://github.com/ehmaddd/math-magician',
   },
   {
-    image: ['./images/book.png'],
+    image: ['./images/book.jpg'],
     title: 'Bookstore',
     languages: ['REACT', 'CSS3', 'HTML5'],
-    details: "Book Store is a Single Page Application which allows the user to have a detailed information about a book library as well as the book reading status. It allows user to keep track of a book read by anyone and also change the particulars and also deleting the book.",
+    details: `Book Store is a Single Page Application which allows the user to deal with the books in a library.<br>
+    <br>
+    The key features are :<br>
+    &nbsp;&nbsp;&nbsp;* Getting information about a book<br>
+    &nbsp;&nbsp;&nbsp;* Checking Book status<br>
+    &nbsp;&nbsp;&nbsp;* Changing book particulars`,
     liveVersion: 'https://book-store-modj.onrender.com/',
     linkSource: 'https://github.com/ehmaddd/bookstore',
   },
   {
-    image: ['./images/movie.png'],
+    image: ['./images/movie.jpg'],
     title: 'Movie Show',
     languages: ['ES6', 'CSS3', 'HTML5'],
-    details: "A website that allows users to interact with movies show information by extracting it from an API, like or comment them. We achieved that by using JavaScript objects , arrays and API. We also dynamically modified the DOM and added basic events",
+    details: `The Movie Show app allows to get information about the latest movies and put an impression on them.<br>
+    <br>
+    The key features are :<br>
+    &nbsp;&nbsp;&nbsp;* To show information<br>
+    &nbsp;&nbsp;&nbsp;* Like<br>
+    &nbsp;&nbsp;&nbsp;* Comment`,
     liveVersion: 'https://ehmaddd.github.io/Movie-Show-API-Based/dist/',
     linkSource: 'https://github.com/ehmaddd/Movie-Show-API-Based',
   },
