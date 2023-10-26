@@ -444,6 +444,12 @@ textarea:focus {
   color: white;
 }
 
+.hits-div {
+  position: absolute;
+  right: 5rem;
+  top: 4.5rem;
+}
+
 @media only screen and (min-width: 250px) and (max-width: 349px) {
   .nav-bar {
     position: sticky;
