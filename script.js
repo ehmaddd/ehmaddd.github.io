@@ -1,11 +1,14 @@
 const projects = [
   {
-    image: ['./images/coordinate.jpg',],
-    title: 'Coordinate Fetch App',
+    image: ['./images/resumebuilder.jpg',],
+    title: 'Online Resume Builder',
     languages: ['REACT', 'REDUX', 'CSS3'],
-    details: `<br><br>Redux Coordinate Fetch App is a website fetches data for major cities for the selected province.<br><br>The main features include :<br>&nbsp;&nbsp;&nbsp;* Working with live data from AccuWeather<br>&nbsp;&nbsp;&nbsp;* Use of API to fetch data<br>&nbsp;&nbsp;&nbsp;* Provides latitude and longitude info`,
-    liveVersion: 'https://react-coordinate-app.onrender.com/',
-    linkSource: 'https://github.com/ehmaddd/react-coordinate-app',
+    details: `<br>Introducing The hassle-free solution for crafting standout resumes! Key highlights include:<br>
+    &nbsp;&nbsp;&nbsp;* Easy input of details<br>
+    &nbsp;&nbsp;&nbsp;* Selection from sleek templates<br>
+    &nbsp;&nbsp;&nbsp;* Instant creation of polished PDF resumes.`,
+    liveVersion: 'codealpha-resumebuilder.vercel.app',
+    linkSource: 'https://github.com/ehmaddd/codealpha.resumebuilder',
   },
   {
     image: ['./images/space.jpg',],
