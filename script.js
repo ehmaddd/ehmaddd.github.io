@@ -103,29 +103,31 @@ const modalInterval = [];
 
 for (let a = 0; a < btn.length; a += 1) {
   btn[a].addEventListener('click', () => {
-    modal.style.display = 'block';
+  modal.style.display = 'block';
 
-    document.querySelector('#myModal img').src = projects[a].image[0];
+  document.querySelector('#myModal img').src = projects[a].image[0];
+  document.querySelector('#myModal p').innerHTML = projects[a].details;
+  document.querySelector('#myModal h4').innerHTML = projects[a].title;
 
-    document.querySelector('#myModal p').innerHTML = projects[a].details;
-    document.querySelector('#myModal h4').innerHTML = projects[a].title;
+  while (modalUl.firstChild) {
+    modalUl.removeChild(modalUl.firstChild);
+  }
 
-    while (modalUl.firstChild) {
-      modalUl.removeChild(modalUl.firstChild);
-    }
+  for (let b = 0; b < projects[a].languages.length; b += 1) {
+    const li = document.createElement('li');
+    li.appendChild(document.createTextNode(projects[a].languages[b]));
+    modalUl.appendChild(li);
+  }
 
-    for (let b = 0; b < projects[a].languages.length; b += 1) {
-      const li = document.createElement('li');
-      li.appendChild(document.createTextNode(projects[a].languages[b]));
-      modalUl.appendChild(li);
-    }
+  // Correctly assign the live version URL
+  const liveVersion = projects[a].liveVersion || '';
+  document.querySelector('#see-live').href = liveVersion !== '' ? liveVersion : '#';
+  document.querySelector('#see-live').target = '_blank';
 
-    document.querySelector('#see-live').href = projects[a].liveVersion;
-    document.querySelector('#see-live').target = '_blank';
-
-    document.querySelector('#see-source').href = projects[a].linkSource;
-    document.querySelector('#see-source').target = '_blank';
-  });
+  // Set the source code link
+  document.querySelector('#see-source').href = projects[a].linkSource;
+  document.querySelector('#see-source').target = '_blank';
+});
 }
 
 span.addEventListener('click', () => {
