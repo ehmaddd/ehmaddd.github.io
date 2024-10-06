@@ -7,7 +7,7 @@ const projects = [
     &nbsp;&nbsp;&nbsp;* Easy input of details<br>
     &nbsp;&nbsp;&nbsp;* Selection from sleek templates<br>
     &nbsp;&nbsp;&nbsp;* Instant creation of polished PDF resumes.`,
-    liveVersion: 'codealpha-resumebuilder.vercel.app',
+    liveVersion: 'https://codealpha-resumebuilder.vercel.app',
     linkSource: 'https://github.com/ehmaddd/codealpha.resumebuilder',
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     &nbsp;&nbsp;&nbsp;* Based on Rest API<br>
     &nbsp;&nbsp;&nbsp;* Data fetch from SpaceX APIspace travel services<br>
     &nbsp;&nbsp;&nbsp;* Local State management<br>`,
-    liveVersion: 'https://react-redux-group-project-green.vercel.app/',
+    liveVersion: 'https://react-redux-group-project-green.vercel.app',
     linkSource: 'https://github.com/ehmaddd/space-travelers-hub',
   },
   {
