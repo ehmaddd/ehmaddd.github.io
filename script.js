@@ -70,8 +70,8 @@ const projects = [
     &nbsp;&nbsp;&nbsp;* Show Sections<br>
     &nbsp;&nbsp;&nbsp;* Navigate<br>
     &nbsp;&nbsp;&nbsp;* Contact with team`,
-    liveVersion: 'https://github.com/ehmaddd/agile_solutions',
-    linkSource: 'https://ehmaddd.github.io/agile_solutions/',
+    liveVersion: 'https://ehmaddd.github.io/agile_solutions/',
+    linkSource: 'https://github.com/ehmaddd/agile_solutions',
   },
 ];
 
