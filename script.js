@@ -61,17 +61,17 @@ const projects = [
     linkSource: 'https://github.com/ehmaddd/Movie-Show-API-Based',
   },
   {
-    image: ['./images/budget.jpg'],
-    title: 'Budget App',
-    languages: ['RAILS', 'CSS3', 'ES6'],
-    details: `This app is budget management app, in which you can estimatate the monthly food budget.<br>
+    image: ['./images/agile.jpg'],
+    title: 'Agile Solutions',
+    languages: ['ES6', 'CSS3', 'HTML5'],
+    details: `This app is Agile Solutions website which showcases the advantages, team and appraisals for their services.<br>
     <br>
     The key features are :<br>
-    &nbsp;&nbsp;&nbsp;* Add the categories<br>
-    &nbsp;&nbsp;&nbsp;* Add deals for each category<br>
-    &nbsp;&nbsp;&nbsp;* Spent amount total`,
-    liveVersion: 'https://budgetapp-6l76.onrender.com/',
-    linkSource: 'https://github.com/ehmaddd/BudgetApp',
+    &nbsp;&nbsp;&nbsp;* Show Sections<br>
+    &nbsp;&nbsp;&nbsp;* Navigate<br>
+    &nbsp;&nbsp;&nbsp;* Contact with team`,
+    liveVersion: 'https://github.com/ehmaddd/agile_solutions',
+    linkSource: 'https://ehmaddd.github.io/agile_solutions/',
   },
 ];
 
