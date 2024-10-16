@@ -63,7 +63,7 @@ const projects = [
   {
     image: ['./images/agile.jpg'],
     title: 'Agile Solutions',
-    languages: ['ES6', 'CSS3', 'HTML5'],
+    languages: ['BOOTSTRAP', 'ES6', 'CSS3'],
     details: `This app is Agile Solutions website which showcases the advantages, team and appraisals for their services.<br>
     <br>
     The key features are :<br>
