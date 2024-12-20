@@ -11,16 +11,16 @@ const projects = [
     linkSource: 'https://github.com/ehmaddd/codealpha.resumebuilder',
   },
   {
-    image: ['./images/space.jpg',],
-    title: 'Space Travelers Hub',
+    image: ['./images/track.jpg',],
+    title: 'Track Yourself',
     languages: ['REACT', 'REDUX', 'CSS3'],
-    details: `Space Traveler's Hub is a web application allows to book/cancel rockets and join/leave for space mission.<br><br>
+    details: `Tracking Yourself is a web app which makes the life easy for you by tracking your health, finance and to-do tasks<br><br>
     The key features are :<br>
-    &nbsp;&nbsp;&nbsp;* Based on Rest API<br>
-    &nbsp;&nbsp;&nbsp;* Data fetch from SpaceX APIspace travel services<br>
-    &nbsp;&nbsp;&nbsp;* Local State management<br>`,
-    liveVersion: 'https://react-redux-group-project-green.vercel.app',
-    linkSource: 'https://github.com/ehmaddd/space-travelers-hub',
+    &nbsp;&nbsp;&nbsp;* Customized dashboard<br>
+    &nbsp;&nbsp;&nbsp;* Keep record of your health<br>
+    &nbsp;&nbsp;&nbsp;* Store your to-do tasks and finance<br>`,
+    liveVersion: 'https://track-urself.vercel.app/',
+    linkSource: 'https://github.com/ehmaddd/track_urself',
   },
   {
     image: ['./images/math.jpg',],
