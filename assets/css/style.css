@@ -350,3 +350,7 @@ nav.sticky {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+.tag {
+  font-weight: 900;
+}
