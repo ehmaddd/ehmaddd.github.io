@@ -31,19 +31,23 @@ function list(items){
   return items.map(o=>`<li>${o}</li>`).join('');
 }
 
-
-
-function card(p){
+function card(p) {
   const hasImage = p.image && p.image.trim().length > 0;
   const method = p.methodology || '';
   const duration = p.duration || '';
   const budget = p.budget || 'N/A';
   const members = p.team_size || 'N/A';
+
   return `
-  <article class="card project compact" data-id="${p._id}">
-    <div class="media small">${hasImage ? `<img src="${p.image}" alt="${p.title}">` : ''}</div>
-    <div class="body">
+  <article class="card project stacked" data-id="${p._id}">
+    <div class="card-header">
       <div class="title sm">${p.title || ''}</div>
+    </div>
+    ${hasImage ? `
+      <div class="media">
+        <img src="${p.image}" alt="${p.title}">
+      </div>` : ''}
+    <div class="body">
       <div class="meta">${[p.organization, duration].filter(Boolean).join(' • ')}</div>
       <div class="kv">
         <span><strong>Method:</strong> ${method}</span>
@@ -56,9 +60,6 @@ function card(p){
     </div>
   </article>`;
 }
-
-
-
 
 async function load() {
   try {

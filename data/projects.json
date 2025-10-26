@@ -1,33 +1,93 @@
 [
   {
-    "title": "Educator IT Literacy Enablement Program",
-    "organization": "Fazaia Model Inter College Mushaf, Sargodha",
-    "duration": "Apr 2022 – Sep 2022",
-    "methodology": "Waterfall",
-    "team_size": "1–4",
-    "role": "Educational Program Manager",
-    "summary": "Upskilled 250+ educators to deliver online classes and adopt LMS; owned planning, curriculum, risk control, and evaluation with leadership reporting.",
+    "title": "Vendix Beauty Salon",
+    "organization": "Vendix",
+    "duration": "Jan 2023 – Jul 2023",
+    "methodology": "Agile (Scrum)",
+    "team_size": "4–6",
+    "role": "Technical Project Manager",
+    "summary": "Inherited a baton-dropped project with only an approved portfolio document; rebuilt full scope, requirements, and workflows for salon, client, and marketplace modules. Delivered a fully functional, approved platform aligned with product owner expectations.",
     "outcomes": [
-      "250+ educators trained; complete coverage achieved",
-      "Sustainable framework for digital education established",
-      "Assessment & feedback loops improved adoption"
+      "Full project revival and completion after handover",
+      "Three integrated modules — Salon Owner, Client, and Marketplace — successfully launched",
+      "All deliverables approved by Product Owner within timeline"
     ],
     "achievements": [
-      "Full training coverage across departments",
-      "On-time delivery across structured phases",
-      "Stakeholder alignment with weekly VP reviews"
+      "Re-created all project documentation and backlog from scratch",
+      "Secured cross-departmental alignment post-handover",
+      "Client satisfaction achieved with zero rollback requests"
     ],
     "difficulties": [
-      "Scheduling conflicts across departments",
-      "Ensuring consistent participation and engagement",
-      "Resource constraints for labs/connectivity"
+      "No existing documentation or project continuity from previous PM",
+      "Reconstructing requirements from limited client feedback",
+      "Balancing technical rework with stakeholder trust recovery"
     ],
     "lessons_learned": [
-      "Front-load risk mitigations for participation & scheduling",
-      "Use phased curriculum with measurable outcomes",
-      "Maintain leadership visibility to accelerate decisions"
+      "Always maintain traceable project documentation and backups",
+      "Establish early stakeholder checkpoints post-handover",
+      "Reassess assumptions — never rely on inherited artifacts blindly"
     ],
-    "image": ""
+    "image": "./images/vendix.jpg"
+  },
+  {
+    "title": "Employee Management",
+    "organization": "Immentia",
+    "duration": "Nov 2024 – Apr 2025",
+    "methodology": "Hybrid",
+    "team_size": "5–9",
+    "role": "Technical Project Manager",
+    "summary": "SaaS HR platform covering onboarding, roles/shifts, payroll, and compliance; combined waterfall planning with iterative delivery ceremonies.",
+    "outcomes": [
+      "Reduced HR admin overhead; improved engagement",
+      "Scalable, intuitive platform meeting compliance needs",
+      "Cross-department coordination & risk management"
+    ],
+    "achievements": [
+      "Balanced documentation with sprint execution",
+      "Delivered core HR workflows with high adoption",
+      "Established change control and RAG tracking"
+    ],
+    "difficulties": [
+      "Complex compliance rules across workflows",
+      "Data migration edge cases",
+      "Coordinating shifts across departments"
+    ],
+    "lessons_learned": [
+      "Hybrid is ideal for regulated SaaS domains",
+      "Bake compliance into acceptance criteria",
+      "Pilot migrations before full cutover"
+    ],
+    "image": "./images/1.jpg"
+  },
+  {
+    "title": "Scam Soldier",
+    "organization": "Immentia",
+    "duration": "May 2025 – Sep 2025",
+    "methodology": "Agile",
+    "team_size": "1–4",
+    "role": "Technical Project Manager",
+    "summary": "Community reviews & scam reporting; prioritized authentication, moderation, fraud detection with iterative delivery and stakeholder updates.",
+    "outcomes": [
+      "Launched a platform to enable safer online decisions",
+      "High-value features shipped incrementally",
+      "Established moderation and ops documentation"
+    ],
+    "achievements": [
+      "Rapid iteration on core trust & safety features",
+      "Stakeholder alignment via demos and updates",
+      "Metrics-driven prioritization of backlog"
+    ],
+    "difficulties": [
+      "Balancing moderation with user freedom",
+      "Fraud signal tuning and false positives",
+      "Preventing spam & abuse at scale"
+    ],
+    "lessons_learned": [
+      "Define clear community guidelines early",
+      "Iterate fraud models with real-world data",
+      "Automate abuse handling where feasible"
+    ],
+    "image": "./images/scamsoldier.jpg"
   },
   {
     "title": "Travel Stay Directory",
@@ -57,10 +117,10 @@
       "Keep MVP scope tight and value-driven",
       "Use burndown/velocity to negotiate scope change"
     ],
-    "image": ""
+    "image": "./images/1.jpg"
   },
   {
-    "title": "Hona AI Multi-Channel Authentication",
+    "title": "Hona AI",
     "organization": "Tech Logans",
     "duration": "Sep 2023 – Jan 2024",
     "methodology": "Agile",
@@ -87,10 +147,10 @@
       "Proactively monitor API quotas and throttling",
       "Use iteration gates for security validation"
     ],
-    "image": ""
+    "image": "./images/honaai.jpg"
   },
   {
-    "title": "Maguey Exchange — Website & Mobile App (MVP)",
+    "title": "Maguey Exchange",
     "organization": "Tech Logans",
     "duration": "Jan 2024 – May 2024",
     "methodology": "Hybrid",
@@ -117,96 +177,6 @@
       "Instrument uploads to trace failures",
       "Separate brand constraints from iterative backlog"
     ],
-    "image": ""
-  },
-  {
-    "title": "Ibn Al Haitham Tech Center",
-    "organization": "Immentia",
-    "duration": "May 2024 – Nov 2024",
-    "methodology": "Waterfall",
-    "team_size": "5–9",
-    "role": "Training & Development Manager",
-    "summary": "Launched a tech education center: budget, curriculum, facilities, and cross-functional coordination with educators and industry experts.",
-    "outcomes": [
-      "Center launched on schedule after 6 months",
-      "Increased student engagement post-launch",
-      "Recognized as a local hub for tech learning"
-    ],
-    "achievements": [
-      "End-to-end facility & curriculum orchestration",
-      "Stakeholder collaboration across education & industry",
-      "Structured governance and reporting"
-    ],
-    "difficulties": [
-      "Budget trade-offs vs facility capabilities",
-      "Sequencing construction with procurement",
-      "Hiring and onboarding qualified faculty"
-    ],
-    "lessons_learned": [
-      "Lock long-lead items early in plan",
-      "Use milestone-based vendor SLAs",
-      "Align curriculum with market skill demand"
-    ],
-    "image": ""
-  },
-  {
-    "title": "Employee Management System (SaaS)",
-    "organization": "Immentia",
-    "duration": "Nov 2024 – Apr 2025",
-    "methodology": "Hybrid",
-    "team_size": "5–9",
-    "role": "Technical Project Manager",
-    "summary": "SaaS HR platform covering onboarding, roles/shifts, payroll, and compliance; combined waterfall planning with iterative delivery ceremonies.",
-    "outcomes": [
-      "Reduced HR admin overhead; improved engagement",
-      "Scalable, intuitive platform meeting compliance needs",
-      "Cross-department coordination & risk management"
-    ],
-    "achievements": [
-      "Balanced documentation with sprint execution",
-      "Delivered core HR workflows with high adoption",
-      "Established change control and RAG tracking"
-    ],
-    "difficulties": [
-      "Complex compliance rules across workflows",
-      "Data migration edge cases",
-      "Coordinating shifts across departments"
-    ],
-    "lessons_learned": [
-      "Hybrid is ideal for regulated SaaS domains",
-      "Bake compliance into acceptance criteria",
-      "Pilot migrations before full cutover"
-    ],
-    "image": ""
-  },
-  {
-    "title": "Scam Soldier — Consumer Transparency Platform",
-    "organization": "Immentia",
-    "duration": "May 2025 – Sep 2025",
-    "methodology": "Agile",
-    "team_size": "1–4",
-    "role": "Technical Project Manager",
-    "summary": "Community reviews & scam reporting; prioritized authentication, moderation, fraud detection with iterative delivery and stakeholder updates.",
-    "outcomes": [
-      "Launched a platform to enable safer online decisions",
-      "High-value features shipped incrementally",
-      "Established moderation and ops documentation"
-    ],
-    "achievements": [
-      "Rapid iteration on core trust & safety features",
-      "Stakeholder alignment via demos and updates",
-      "Metrics-driven prioritization of backlog"
-    ],
-    "difficulties": [
-      "Balancing moderation with user freedom",
-      "Fraud signal tuning and false positives",
-      "Preventing spam & abuse at scale"
-    ],
-    "lessons_learned": [
-      "Define clear community guidelines early",
-      "Iterate fraud models with real-world data",
-      "Automate abuse handling where feasible"
-    ],
-    "image": ""
+    "image": "./images/maguey.jpg"
   }
 ]
