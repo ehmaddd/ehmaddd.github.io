@@ -175,3 +175,40 @@ document.addEventListener('click', (e) => {
     if (p) renderModalContent(p);
   }
 });
+
+const track = document.querySelector('.testimonial-track');
+const testimonials = document.querySelectorAll('.testimonial');
+const dotsContainer = document.querySelector('.dots');
+
+let index = 0;
+const visible = 2;
+const total = testimonials.length;
+const totalDots = Math.ceil(total / visible);
+
+// Create dots
+for (let i = 0; i < totalDots; i++) {
+  const dot = document.createElement('span');
+  dot.classList.add('dot');
+  if (i === 0) dot.classList.add('active');
+  dot.dataset.index = i;
+  dotsContainer.appendChild(dot);
+}
+
+// Function to move slider
+function goToSlide(i) {
+  index = i;
+  track.style.transform = `translateX(-${index * 100}%)`;
+  document.querySelectorAll('.dot').forEach(dot => dot.classList.remove('active'));
+  document.querySelector(`.dot[data-index="${i}"]`).classList.add('active');
+}
+
+// Dot click event
+document.querySelectorAll('.dot').forEach(dot => {
+  dot.addEventListener('click', () => goToSlide(parseInt(dot.dataset.index)));
+});
+
+// Autoplay
+setInterval(() => {
+  index = (index + 1) % totalDots;
+  goToSlide(index);
+}, 8000);
