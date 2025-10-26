@@ -8,6 +8,12 @@
   --bg:#ffffff; --panel:#f7f9fc; --ink:#0b1220; --muted:#4b5563; --line:#e5e7eb;
   --accent:#0ea5e9; --accent-2:#22c55e; --chip:#eef2ff; --shadow:0 14px 36px rgba(2,6,23,.08);
 }
+[data-theme="dark"] {
+  --text-primary: #f5f5f5;
+  --text-secondary: #aaa;
+  --bg-primary: #1b1b1b;
+  --bg-secondary: #2a2a2a;
+}
 html,body{height:100%}
 body{
   margin:0; font-family:'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
@@ -120,12 +126,11 @@ a{color:var(--accent)}
   .modal-grid{grid-template-columns:1fr}
 }
 
-
 /* Compact Project Card */
 .project.compact{display:flex; gap:12px; padding:12px}
 .project.compact .media.small{width:120px; height:90px; border-radius:12px; overflow:hidden; border:1px solid var(--line); background:var(--panel)}
 .project.compact .media.small img{width:100%; height:100%; object-fit:cover}
-.project.compact .title.sm{font-size:1rem; font-weight:800; margin:2px 0}
+.project.compact .title.sm{font-size:1rem; font-weight:800; margin:2px 0;}
 .project.compact .meta{font-size:.9rem; color:var(--muted); margin-bottom:6px}
 .project.compact .pills .pill{font-size:.75rem; padding:2px 8px; border-radius:999px; border:1px solid var(--line)}
 
@@ -362,7 +367,7 @@ nav.sticky {
   border: 1px solid #ddd;
   border-radius: 12px;
   padding: 1rem;
-  background: #fff;
+  background: auto;
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
   width: 100%;
   max-width: 500px;  /* consistent width */
@@ -379,9 +384,11 @@ nav.sticky {
 }
 
 .card-header .title {
-  font-size: 1.25rem;
+  color: var(--muted);
   font-weight: 600;
-  color: #222;
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+  transition: color 0.3s ease;
 }
 
 .media {
@@ -473,4 +480,25 @@ nav.sticky {
   .media {
     height: 150px;
   }
+}
+
+.methods-tools {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* 👈 space between groups */
+  margin-top: 1.2rem;
+  font-size: 0.95rem;
+  line-height: 1.6; /* 👈 adds breathing room between lines */
+}
+
+.methods-tools .tool-group h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--muted)
+}
+
+.methods-tools .tool-group p {
+  margin: 0.4rem 0 0 0;
+  color: var(--muted);
 }
