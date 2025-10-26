@@ -1,0 +1,76 @@
+/* === Responsive Additions (v3) === */
+:root { --nav-height: 64px; }
+* { box-sizing: border-box; }
+
+img, video, canvas, iframe { max-width: 100%; height: auto; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+.container, .wrapper, .content {
+  width: min(1100px, 100% - 2rem);
+  margin-inline: auto;
+}
+
+/* Nav base styles */
+nav.auto-responsive-nav {
+  background-color: rgba(var(--nav-bg-color-rgb), var(--nav-opacity)); backdrop-filter: var(--nav-blur); -webkit-backdrop-filter: var(--nav-blur);
+}
+nav.auto-responsive-nav .brand { display: flex; align-items: center; gap: .5rem; }
+nav.auto-responsive-nav .menu { display: flex; align-items: center; gap: 1rem; list-style: none; padding: 0; margin: 0; }
+nav.auto-responsive-nav .menu a { text-decoration: none; }
+
+/* Hamburger - classic three lines with smooth X animation */
+#auto-hamburger {
+  display: none; width: 44px; height: 44px; border: none; background: transparent; cursor: pointer; position: relative;
+}
+#auto-hamburger span,
+#auto-hamburger::before,
+#auto-hamburger::after {
+  content: ""; position: absolute; left: 10px; right: 10px; height: 2px;
+  background: currentColor; transition: transform .25s ease, opacity .25s ease, top .25s ease, bottom .25s ease;
+}
+#auto-hamburger span { top: 50%; transform: translateY(-50%); }
+#auto-hamburger::before { top: 14px; }
+#auto-hamburger::after { bottom: 14px; }
+
+/* Mobile panel (animated) */
+nav.auto-responsive-nav .menu-panel {
+  position: absolute; top: var(--nav-height); inset-inline: 0;
+  background: white; border-top: 1px solid rgba(0,0,0,.08); box-shadow: 0 8px 24px rgba(0,0,0,.08);
+  overflow: hidden; max-height: 0; opacity: 0; pointer-events: none;
+  transition: max-height .3s ease, opacity .2s ease;
+}
+nav.auto-responsive-nav .menu-panel-inner { padding: .75rem 1rem; }
+nav.auto-responsive-nav .menu-panel ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
+nav.auto-responsive-nav .menu-panel a { text-decoration: none; display: block; padding: .5rem 0; }
+nav.auto-responsive-nav .menu-panel .actions { display: grid; gap: .5rem; margin-top: .5rem; }
+
+@media (max-width: 768px) {
+    /* Yeh line already links chhupa rahi hai */
+    nav.auto-responsive-nav .menu {
+        display: none;
+    }
+
+    /* FIX: Hamburger button ko mobile par chhupa do */
+    #auto-hamburger {
+        display: none !important; /* Hamburger ko dikhaane wali line ko override kiya */
+    }
+
+    /* FIX: Mobile menu panel ko bhi force-chhupa do agar galti se koi is-open class reh jaaye */
+    nav.auto-responsive-nav .menu-panel {
+        display: none !important;
+    }
+}
+
+nav.auto-responsive-nav.is-open #auto-hamburger span { opacity: 0; }
+nav.auto-responsive-nav.is-open #auto-hamburger::before { transform: translateY(10px) rotate(45deg); }
+nav.auto-responsive-nav.is-open #auto-hamburger::after { transform: translateY(-10px) rotate(-45deg); }
+
+/* When open, reveal the panel */
+nav.auto-responsive-nav.is-open .menu-panel {
+  max-height: 70vh; opacity: 1; pointer-events: auto;
+}
+
+/* Small utility to hide original "actions" on mobile once moved */
+@media (max-width: 768px) {
+  .hide-on-mobile { display: none !important; }
+}

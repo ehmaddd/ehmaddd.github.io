@@ -1,0 +1,352 @@
+/* --- Modern PM Portfolio — Spacious Refinement --- */
+*{box-sizing:border-box}
+:root{
+  --bg:#0b1220; --panel:rgba(255,255,255,.06); --ink:#e6edf3; --muted:#a3adb8; --line:rgba(255,255,255,.12);
+  --accent:#5eead4; --accent-2:#60a5fa; --chip:#111827; --shadow:0 14px 36px rgba(0,0,0,.28);
+}
+:root.light{
+  --bg:#ffffff; --panel:#f7f9fc; --ink:#0b1220; --muted:#4b5563; --line:#e5e7eb;
+  --accent:#0ea5e9; --accent-2:#22c55e; --chip:#eef2ff; --shadow:0 14px 36px rgba(2,6,23,.08);
+}
+html,body{height:100%}
+body{
+  margin:0; font-family:'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color:var(--ink); background:var(--bg); background-attachment: fixed;
+}
+h1,h2,h3{font-family:'Plus Jakarta Sans', 'Inter', sans-serif; margin:0 0 16px}
+h1{font-size:46px; line-height:1.12; letter-spacing:-.5px}
+h2{font-size:30px}
+h3{font-size:18px; color:var(--muted)}
+p{color:var(--muted); line-height:1.85}
+a{color:var(--accent)}
+.lead{font-size:18px}
+.container{max-width:1160px; margin:0 auto; padding:0 24px}
+
+.bg .blob{position:fixed; filter:blur(68px); opacity:.33; z-index:-1; pointer-events:none}
+.blob-1{width:600px;height:600px; background:radial-gradient(circle at 30% 30%, var(--accent), transparent 60%); top:-80px; left:-100px; animation:float 14s ease-in-out infinite alternate}
+.blob-2{width:720px;height:720px; background:radial-gradient(circle at 70% 60%, var(--accent-2), transparent 60%); bottom:-160px; right:-160px; animation:float 16s ease-in-out infinite alternate-reverse}
+@keyframes float{to{transform:translateY(30px) translateX(20px)}}
+
+.nav{position:fixed; top:0; z-index:1000; width:100%; backdrop-filter:saturate(1.2) blur(10px); background-color: rgba(11, 18, 32, 0.95); border-bottom:1px solid var(--line);}
+.nav .links a {font-size: 0.9rem; padding: 0.5rem 0.2rem;}
+:root.light .nav{background:linear-gradient(180deg, rgba(255,255,255,.75), rgba(255,255,255,0))}
+.nav-inner{display:flex; align-items:center; justify-content:space-between; padding:16px 0}
+.brand{font-weight:800; font-size:20px; letter-spacing:.5px; color:var(--ink); text-decoration:none}
+.brand span{color:var(--accent)}
+.links a{color:var(--muted); margin:0 12px; text-decoration:none; padding:8px 0}
+.links a:hover{color:var(--ink)}
+.actions{display:flex; gap:12px}
+
+.btn{display:inline-flex; align-items:center; gap:8px; padding:12px 16px; border-radius:12px; border:1px solid var(--line); color:var(--ink); text-decoration:none; background:transparent}
+.btn.primary{background:linear-gradient(135deg, var(--accent), var(--accent-2)); color:#0b1220; border-color:transparent; box-shadow:var(--shadow); font-weight:800}
+.btn.outline{background:transparent}
+.btn.ghost{background:transparent}
+.btn:hover{transform:translateY(-1px); transition:.2s ease}
+
+.card{background:var(--panel); border:1px solid var(--line); border-radius:18px; box-shadow:var(--shadow)}
+.glass{backdrop-filter: blur(12px) saturate(120%)}
+
+.hero{display:grid; grid-template-columns:1.2fr .9fr; gap:40px; padding:86px 0 48px; margin-top: 2rem;}
+.eyebrow{color:var(--muted); text-transform:uppercase; letter-spacing:.12em; font-size:12px; margin:6px 0 12px}
+.cta-row{display:flex; gap:14px; margin:20px 0 16px; flex-wrap:wrap}
+.stats{display:flex; gap:18px; flex-wrap:wrap; margin-top:10px}
+.stats div{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:12px 16px; text-align:center}
+.stats strong{font-size:18px; display:block; color:var(--ink)}
+.stats span{font-size:12px; color:var(--muted)}
+
+.hero-right{padding:20px}
+.roomy > li{margin-bottom:10px}
+
+.section{padding:70px 0}
+.section-head{margin-bottom:24px}
+.muted{color:var(--muted)}
+
+.filters{display:flex; gap:12px; flex-wrap:wrap; margin:12px 0 26px}
+.chip{padding:9px 14px; border-radius:999px; border:1px solid var(--line); background:var(--panel); color:var(--ink); cursor:pointer}
+.chip.active{background:linear-gradient(135deg, var(--accent), var(--accent-2)); color:#0b1220; border-color:transparent}
+
+.grid{display:grid; grid-template-columns:repeat(3,1fr); gap:26px}
+.two-l{display:grid; grid-template-columns:1.2fr 1fr; gap:26px}
+@media (max-width:1100px){.hero{grid-template-columns:1fr}.two-l{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:700px){.grid{grid-template-columns:1fr}}
+
+.card.project{position:relative; overflow:hidden}
+.ribbon{position:absolute; top:16px; left:16px; padding:7px 12px; border-radius:999px; font-size:12px; background:linear-gradient(135deg, var(--accent), var(--accent-2)); color:#0b1220; font-weight:800}
+.media{aspect-ratio:16/9; background:rgba(255,255,255,.08); display:flex; align-items:center; justify-content:center; color:var(--muted); font-weight:700}
+.body{padding:18px 18px 8px}
+.body .title{font-weight:800; font-size:20px; letter-spacing:-.2px}
+.meta{font-size:13px; color:var(--muted); margin:4px 0 12px}
+.pills{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px}
+.pills .pill{font-size:12px; padding:6px 10px; border-radius:999px; border:1px solid var(--line); background:var(--panel)}
+
+.sectioned{display:grid; gap:14px; padding:0 18px 18px}
+.block{padding:14px; border:1px dashed var(--line); border-radius:12px; background:rgba(255,255,255,.02)}
+.block h4{margin:0 0 8px; font-size:14px; letter-spacing:.3px; text-transform:uppercase; color:var(--ink)}
+.block ul{margin:0; padding-left:18px}
+.block li{margin:6px 0; color:var(--muted); line-height:1.65}
+
+.about .kv{display:grid; gap:12px}
+.kv div{display:grid; grid-template-columns:140px 1fr; gap:10px; align-items:center}
+.pill-row{display:flex; flex-wrap:wrap; gap:10px}
+.pill{padding:7px 12px; border-radius:999px; border:1px solid var(--line); background:var(--panel)}
+
+.tight{padding-left:18px; margin:6px 0}
+.pad-24{padding:24px}
+.mb-8{margin-bottom:8px}
+
+.contact-card{}
+.contact-grid{display:grid; grid-template-columns:1fr auto; align-items:center; gap:18px}
+@media (max-width:700px){.contact-grid{grid-template-columns:1fr}}
+
+.footer{border-top:1px solid var(--line); padding:22px 0; margin-top:22px}
+.copy{font-size:13px; color:var(--muted)}
+
+
+/* Modal */
+.modal{position:fixed; inset:0; display:none; align-items:center; justify-content:center; z-index:1000}
+.modal.show{display:flex}
+.modal-backdrop{position:absolute; inset:0; background:rgba(0,0,0,.45); backdrop-filter: blur(2px)}
+.modal-dialog{position:relative; max-width: min(920px, 92vw); max-height: 86vh; overflow:auto; background:var(--panel); border:1px solid var(--line); border-radius:18px; box-shadow:var(--shadow); padding:24px}
+.modal-close{position:absolute; top:10px; right:14px; font-size:26px; line-height:1; background:transparent; border:none; color:var(--ink); cursor:pointer}
+.modal-header h3{margin:0}
+.modal-meta{color:var(--muted); margin:6px 0 12px}
+.modal-media{margin:6px 0 14px}
+.modal-media img{width:100%; height:260px; object-fit:cover; border-radius:12px; border:1px solid var(--line)}
+.modal-grid{display:grid; grid-template-columns:1fr 1fr; gap:16px}
+.modal-grid h4{margin:8px 0}
+.modal-grid ul{margin:0; padding-left:18px}
+@media (max-width: 780px){
+  .modal-dialog{max-height: 90vh; padding:16px}
+  .modal-grid{grid-template-columns:1fr}
+}
+
+
+/* Compact Project Card */
+.project.compact{display:flex; gap:12px; padding:12px}
+.project.compact .media.small{width:120px; height:90px; border-radius:12px; overflow:hidden; border:1px solid var(--line); background:var(--panel)}
+.project.compact .media.small img{width:100%; height:100%; object-fit:cover}
+.project.compact .title.sm{font-size:1rem; font-weight:800; margin:2px 0}
+.project.compact .meta{font-size:.9rem; color:var(--muted); margin-bottom:6px}
+.project.compact .pills .pill{font-size:.75rem; padding:2px 8px; border-radius:999px; border:1px solid var(--line)}
+
+/* Modal tabs */
+.modal-tabs{display:flex; gap:8px; margin:8px 0 12px}
+.tab-btn{border:1px solid var(--line); background:transparent; padding:6px 10px; border-radius:999px; cursor:pointer; font-weight:700}
+.tab-btn[aria-selected="true"]{background:var(--accent); color:#fff; border-color:transparent}
+.modal-content{margin-top:8px}
+.modal-content ul{margin:0; padding-left:18px}
+.modal-content p{margin:0}
+
+
+/* === Uniform Project Card Layout === */
+.project.compact{
+  display:grid;
+  grid-template-columns:120px 1fr;
+  gap:12px;
+  padding:12px;
+  height:220px; /* fixed card height for consistency */
+  align-items:start;
+}
+.project.compact .media.small{
+  width:120px; height:196px; /* fill card height minus padding */
+  border-radius:12px; overflow:hidden; border:1px solid var(--line); background:var(--panel);
+  grid-column:1; grid-row:1 / span 3;
+}
+.project.compact .media.small img{width:100%; height:100%; object-fit:cover}
+
+.project.compact .body{display:flex; flex-direction:column; min-width:0; height:100%}
+.project.compact .title.sm{
+  font-size:1rem; font-weight:800; margin:2px 0;
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
+  min-height:2.6em; /* reserve space for 2 lines */
+}
+.project.compact .meta{
+  font-size:.9rem; color:var(--muted); margin-bottom:6px;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  min-height:1.2em;
+}
+.project.compact .kv{
+  display:grid; grid-template-columns:1fr 1fr; gap:6px 12px;
+  flex:0 0 48px; /* reserve a consistent block height */
+  overflow:hidden;
+}
+@media (max-width:780px){
+  .project.compact{grid-template-columns:1fr; height:auto}
+  .project.compact .media.small{width:100%; height:140px; grid-row:auto; grid-column:auto}
+  .project.compact .kv{grid-template-columns:1fr; flex:0 0 auto}
+}
+
+.project.compact .actions{margin-top:auto; display:flex; gap:8px}
+.project.compact .pill{font-size:.75rem; padding:2px 8px; border-radius:999px; border:1px solid var(--line)}
+
+
+/* === Fixed-size Modal with Scrollable Content === */
+.modal{position:fixed; inset:0; display:none; align-items:center; justify-content:center; z-index:1000}
+.modal.show{display:flex}
+.modal-backdrop{position:absolute; inset:0; background:rgba(0,0,0,.45); backdrop-filter: blur(2px)}
+.modal-dialog{
+  position:relative; width:920px; max-width:92vw;
+  height:80vh; max-height:80vh;
+  display:flex; flex-direction:column;
+  overflow:hidden; background:var(--panel); border:1px solid var(--line); border-radius:18px; box-shadow:var(--shadow); padding:20px;
+}
+.modal-close{position:absolute; top:10px; right:14px; font-size:26px; line-height:1; background:transparent; border:none; color:var(--ink); cursor:pointer}
+.modal-header{flex:0 0 auto}
+.modal-meta{color:var(--muted); margin:6px 0 4px}
+.modal-tabs{flex:0 0 auto; display:flex; gap:8px; margin:6px 0 8px}
+.tab-btn{border:1px solid var(--line); background:transparent; padding:6px 10px; border-radius:999px; cursor:pointer; font-weight:700}
+.tab-btn[aria-selected="true"]{background:var(--accent); color:#fff; border-color:transparent}
+.modal-body{
+  flex:1 1 auto; min-height:0; /* allows child to scroll */
+  display:flex; flex-direction:column; gap:10px; overflow:hidden;
+}
+.modal-media{flex:0 0 auto}
+.modal-media img{width:100%; height:240px; object-fit:cover; border-radius:12px; border:1px solid var(--line)}
+.modal-content{flex:1 1 auto; min-height:0; overflow:auto; padding-right:6px}
+@media (max-width:920px){
+  .modal-dialog{height:86vh}
+}
+
+
+/* --- Card Flip Animation --- */
+.project-card {
+  width: 350px;
+  height: 250px;
+  perspective: 1000px;
+  margin: 20px auto;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.project-card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card-front {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  background: #000;
+}
+
+.card-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Sticky Navbar */
+nav.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: var(--bg); /* Use the theme background */
+}
+
+.header-tags {
+    display: flex; /* Chips aur role ko ek line mein laane ke liye */
+    justify-content: space-between; /* Role ko left, chips ko right bhejne ke liye */
+    align-items: center; /* Vertical alignment theek rakhne ke liye */
+    margin-bottom: 15px; /* Hero heading se upar thoda space */
+
+    /* Agar yeh kisi chhote box ke andar hai, to width 100% rakhein */
+    width: 100%;
+}
+
+/* Role ko prominent karne ke liye */
+.prominent-role {
+    display: block;
+    font-size: 1.1rem; /* Thoda bada size */
+    font-weight: 500; /* Extra bold */
+    color: var(--ink); /* Dark/Light mode ke hisaab se primary text color */
+    letter-spacing: 0.05em; /* Thoda spacing */
+}
+
+/* Method Chips Container */
+.method-chips {
+    display:flex;
+    gap: 8px; /* Chips ke beech mein space */
+    margin-bottom: 1rem;
+}
+
+/* Base Chip Styling */
+.chip-item {
+    padding: 6px 12px;
+    border-radius: 999px; /* Poori tarah se circular corner */
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* 1. Agile Chip Color (Using --accent) */
+.chip-item.agile {
+    background: var(--accent);
+    color: var(--bg); /* Dark/Light theme ke hisaab se text color (e.g., #0b1220) */
+}
+
+/* 2. Hybrid Chip Color (Using --accent-2) */
+.chip-item.hybrid {
+    background: var(--accent-2);
+    color: var(--bg); /* Dark/Light theme ke hisaab se text color */
+}
+
+/* 3. Waterfall Chip Color (A third distinct color, maybe muted blue) */
+.chip-item.waterfall {
+    background: #f97316; /* Orange color */
+    color: white;
+}
+
+.name-agile {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+}
+.nav-inner {
+  display: flex;
+  justify-content: space-between; /* This spaces out the three groups */
+  align-items: center; /* This centers the items vertically */
+  /* You may need to adjust padding or gap here */
+}
+
+/* 2. Stack the brand name and the chips vertically */
+.brand-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns the name and chips to the left */
+}
+
+/* Optional: Clean up spacing */
+.brand-group .brand {
+  margin-bottom: 2px; /* Small gap between name and chips */
+  line-height: 1.2;
+}
+
+.method-chips {
+  margin-top: 0;
+  margin-bottom: 0;
+}
