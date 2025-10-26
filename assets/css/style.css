@@ -436,6 +436,37 @@ nav.sticky {
 }
 
 @media (max-width: 600px) {
+  .prominent-role {
+    font-size: 0.95rem; /* 👈 smaller font for mobile */
+    line-height: 1.2;
+  }
+
+  .hire-me {
+    width: 5rem;
+    height: 2.5rem;
+    padding: 0.3rem;
+    font-size: 0.75rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+  }
+
+  .method-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+  }
+
+  .method-buttons .btn {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  nav {
+    flex-wrap: wrap;
+  }
+
   .card.project.stacked {
     max-width: 95%;
   }
