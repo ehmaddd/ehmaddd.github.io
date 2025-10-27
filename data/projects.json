@@ -4,7 +4,7 @@
     "organization": "Immentia",
     "duration": "Jan 2023 – Jul 2023",
     "methodology": "Agile",
-    "team_size": "4–6",
+    "team_size": "5",
     "role": "Technical Project Manager",
     "summary": "Inherited a baton-dropped project with only an approved portfolio document; rebuilt full scope, requirements, and workflows for salon, client, and marketplace modules. Delivered a fully functional, approved platform aligned with product owner expectations.",
     "outcomes": [
@@ -34,7 +34,7 @@
     "organization": "Immentia",
     "duration": "Nov 2024 – Apr 2025",
     "methodology": "Hybrid",
-    "team_size": "5–9",
+    "team_size": "6",
     "role": "Technical Project Manager",
     "summary": "SaaS HR platform covering onboarding, roles/shifts, payroll, and compliance; combined waterfall planning with iterative delivery ceremonies.",
     "outcomes": [
@@ -64,7 +64,7 @@
     "organization": "Immentia",
     "duration": "May 2025 – Sep 2025",
     "methodology": "Agile",
-    "team_size": "1–4",
+    "team_size": "4",
     "role": "Technical Project Manager",
     "summary": "Community reviews & scam reporting; prioritized authentication, moderation, fraud detection with iterative delivery and stakeholder updates.",
     "outcomes": [
@@ -94,7 +94,7 @@
     "organization": "Tech Logans",
     "duration": "Mar 2023 – Sep 2023",
     "methodology": "Agile",
-    "team_size": "1–4",
+    "team_size": "4",
     "role": "Technical Project Manager",
     "summary": "Company-owned travel platform: listing search, filtering, and booking workflow; drove roadmap, backlog, sprints, and stakeholder demos with CEO.",
     "outcomes": [
@@ -124,7 +124,7 @@
     "organization": "Tech Logans",
     "duration": "Sep 2023 – Jan 2024",
     "methodology": "Agile",
-    "team_size": "1–4",
+    "team_size": "3",
     "role": "Technical Project Manager",
     "summary": "Healthcare messaging platform integrating Gmail/Yahoo/Apple Mail with OAuth 2.0; managed compliance, cadence, and Slack-based stakeholder updates.",
     "outcomes": [
@@ -154,7 +154,7 @@
     "organization": "Tech Logans",
     "duration": "Jan 2024 – May 2024",
     "methodology": "Hybrid",
-    "team_size": "5–9",
+    "team_size": "5",
     "role": "Project Manager",
     "summary": "Bilingual platform for agave producers/importers with onboarding, lot tracking, certificate uploads, and brand-aligned UX; guided roadmap and UAT.",
     "outcomes": [
