@@ -33,9 +33,8 @@ function list(items){
 
 function card(p) {
   const hasImage = p.image && p.image.trim().length > 0;
-  const method = p.methodology || '';
+  const method = p.methodology || 'N/A';
   const duration = p.duration || '';
-  const budget = p.budget || 'N/A';
   const members = p.team_size || 'N/A';
 
   return `
@@ -49,13 +48,16 @@ function card(p) {
       </div>` : ''}
     <div class="body">
       <div class="meta">${[p.organization, duration].filter(Boolean).join(' • ')}</div>
-      <div class="kv">
-        <span><strong>Method:</strong> ${method}</span>
-        <span><strong>Budget:</strong> ${budget}</span>
-        <span><strong>Members:</strong> ${members}</span>
+
+      <div class="kv-row">
+        <div class="kv-item"><strong>Method:</strong> ${method}</div>
+        <div class="kv-item"><strong>Members:</strong> ${members}</div>
       </div>
+
       <div class="actions">
-        <button class="btn outline view-details" data-id="${p._id}" data-section="overview">Details</button>
+        <button class="btn fancy view-details" data-id="${p._id}" data-section="overview">
+          <span>View Details</span>
+        </button>
       </div>
     </div>
   </article>`;
@@ -136,8 +138,9 @@ function showProjectModal(p, initialTab='overview'){
   modal.querySelector('#modal-title').textContent = p.title || '';
   modal.querySelector('.modal-meta').textContent = [p.organization, p.duration, p.methodology].filter(Boolean).join(' • ');
 
+  // <-- keep the modal-media element but don't render the image in it
   const media = modal.querySelector('.modal-media');
-  media.innerHTML = p.image ? `<img src="${p.image}" alt="${p.title}" style="width:100%;height:240px;object-fit:cover;border-radius:12px;border:1px solid var(--line)">` : '';
+  if (media) media.innerHTML = ''; // intentionally empty — no image in modal
 
   modal.querySelectorAll('.tab-btn').forEach(btn => {
     btn.setAttribute('aria-selected', btn.dataset.tab === CURRENT_TAB ? 'true' : 'false');
@@ -149,6 +152,7 @@ function showProjectModal(p, initialTab='overview'){
   modal.setAttribute('aria-hidden','false');
   document.body.style.overflow = 'hidden';
 }
+
 
 function closeProjectModal(){
   const modal = document.getElementById('project-modal');
