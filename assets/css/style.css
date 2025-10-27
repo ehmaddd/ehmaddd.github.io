@@ -652,3 +652,24 @@ nav.sticky {
   color: var(--text-primary, #222);
   font-weight: 600;
 }
+
+:root:not(.light) #project-modal .modal-backdrop {
+  background: rgba(0,0,0,0.9);
+}
+
+:root:not(.light) .card .kv-row {
+  color: grey; /* light gray for dark background */
+}
+
+:root:not(.light) .card .kv-row strong {
+  color: grey; /* bright white for contrast */
+}
+
+/* Light mode keeps your normal darker text */
+.light .card .kv-row {
+  color: #555;
+}
+
+.light .card .kv-row strong {
+  color: #222;
+}
