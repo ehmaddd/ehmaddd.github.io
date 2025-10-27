@@ -673,3 +673,21 @@ nav.sticky {
 .light .card .kv-row strong {
   color: #222;
 }
+
+/* Dark mode tab text fix */
+:root:not(.light) .tab-btn {
+  color: #ddd; /* light gray text for visibility */
+  border-color: #555; /* softer border contrast */
+}
+
+:root:not(.light) .tab-btn:hover {
+  color: #fff; /* brighten on hover */
+  border-color: #888;
+}
+
+:root:not(.light) .tab-btn[aria-selected="true"] {
+  background: var(--accent); /* keeps your accent color */
+  color: #fff; /* white text on active tab */
+  border-color: transparent;
+}
+
