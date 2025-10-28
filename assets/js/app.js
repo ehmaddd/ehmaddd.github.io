@@ -51,7 +51,7 @@ function card(p) {
 
       <div class="kv-row">
         <div class="kv-item"><strong>Method:</strong> ${method}</div>
-        <div class="kv-item"><strong>Team:</strong> ${members}</div>
+        <div class="kv-item"><strong>Team Members:</strong> ${members}</div>
       </div>
 
       <div class="actions">

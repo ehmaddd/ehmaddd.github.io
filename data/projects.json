@@ -49,7 +49,7 @@
   {
     "title": "Employee Portal",
     "organization": "Immentia",
-    "duration": "Nov 2024 – Apr 2025",
+    "duration": "Oct 2024 – Mar 2025",
     "methodology": "Hybrid",
     "team_size": "6",
     "role": "Technical Project Manager",
@@ -95,7 +95,7 @@
   {
     "title": "Scam Soldier",
     "organization": "Immentia",
-    "duration": "May 2025 – Sep 2025",
+    "duration": "May 2024 – Aug 2024",
     "methodology": "Agile",
     "team_size": "4",
     "role": "Technical Project Manager",
@@ -141,7 +141,7 @@
   {
     "title": "Travel Stay Directory",
     "organization": "Tech Logans",
-    "duration": "Mar 2023 – Sep 2023",
+    "duration": "Dec 2023 – Apr 2024",
     "methodology": "Agile",
     "team_size": "4",
     "role": "Technical Project Strategist",
@@ -187,7 +187,7 @@
   {
     "title": "Hona AI",
     "organization": "Tech Logans",
-    "duration": "Sep 2023 – Jan 2024",
+    "duration": "Sep 2023 – Dec 2023",
     "methodology": "Agile",
     "team_size": "3",
     "role": "Technical Project Strategist",
@@ -233,11 +233,11 @@
   {
     "title": "Maguey Exchange",
     "organization": "Tech Logans",
-    "duration": "Jan 2024 – May 2024",
+    "duration": "Feb 2023 – Aug 2023",
     "methodology": "Hybrid",
     "team_size": "5",
-    "role": "Technical Project Strategist",
-    "summary": "As the Project Strategist, I led the development of Maguey Exchange, a bilingual platform for agave producers and importers. The platform included onboarding, lot tracking, certificate uploads, and a brand-aligned UX. I managed a 5-person team using a Hybrid methodology, combining structured planning for critical compliance and brand elements with iterative delivery for other modules. I guided roadmap, backlog prioritization, sprint execution, and UAT, ensuring English–Spanish parity, scalable data models, and a brand-consistent experience across web and mobile, while mitigating technical and UX edge cases.",
+    "role": "Junior Project Manager",
+    "summary": "As the Project Manager, I led the development of Maguey Exchange, a bilingual platform for agave producers and importers. The platform included onboarding, lot tracking, certificate uploads, and a brand-aligned UX. I managed a 5-person team using a Hybrid methodology, combining structured planning for critical compliance and brand elements with iterative delivery for other modules. I guided roadmap, backlog prioritization, sprint execution, and UAT, ensuring English–Spanish parity, scalable data models, and a brand-consistent experience across web and mobile, while mitigating technical and UX edge cases.",
     "outcomes": [
       "Delivered an MVP with full English–Spanish feature parity.",
       "Resolved photo upload and lot-ID flow issues for reliable data tracking.",
