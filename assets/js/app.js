@@ -104,7 +104,7 @@ let CURRENT_TAB = 'overview';
 function synthesizeProcedure(p){
   // Build a simple procedure paragraph if none provided
   if (p.procedure && p.procedure.length){
-    if (Array.isArray(p.procedure)) return '<ul>' + p.procedure.map(i=>`<li>${i}</li>`).join('') + '</ul>';
+    if (Array.isArray(p.procedure)) return '<ol>' + p.procedure.map(i=>`<li>${i}</li>`).join('') + '</ol>';
     return `<p>${p.procedure}</p>`;
   }
   const bits = [

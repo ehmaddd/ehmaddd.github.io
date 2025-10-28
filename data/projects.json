@@ -2,60 +2,93 @@
   {
     "title": "Vendix Beauty Salon",
     "organization": "Immentia",
-    "duration": "Jan 2023 – Jul 2023",
+    "duration": "May 2025 – Sep 2025",
     "methodology": "Agile",
     "team_size": "5",
     "role": "Technical Project Manager",
-    "summary": "Inherited a baton-dropped project with only an approved portfolio document; rebuilt full scope, requirements, and workflows for salon, client, and marketplace modules. Delivered a fully functional, approved platform aligned with product owner expectations.",
+    "summary": "As the Technical Project Manager, I inherited the Vendix Beauty Salon project in a critically stalled state — no documentation, no backlog, and minimal guidance. Taking full ownership, I reconstructed the entire project from the ground up, defining scope, rebuilding requirements, and designing workflows for three integrated modules — Salon Owner, Client, and Marketplace. I led a 5-person Agile team through structured backlog management, sprint planning, and iterative delivery, while translating technical concepts into clear guidance for a non-technical client. My approach ensured the platform was fully functional, thoroughly documented, and delivered on time with all stakeholder expectations met, restoring confidence and trust in the project after prior mismanagement.",
     "outcomes": [
-      "Full project revival and completion after handover",
-      "Three integrated modules — Salon Owner, Client, and Marketplace — successfully launched",
-      "All deliverables approved by Product Owner within timeline"
+      "Fully functional, multi-module platform successfully delivered and approved by Product Owner.",
+      "Three interconnected modules — Salon Owner, Client, and Marketplace — integrated and launched.",
+      "All deliverables accepted within timeline with zero rollback or rework requests.",
+      "Complete documentation and backups created for long-term project continuity.",
+      "Improved client confidence through transparent reporting and guided demos."
     ],
     "achievements": [
-      "Re-created all project documentation and backlog from scratch",
-      "Secured cross-departmental alignment post-handover",
-      "Client satisfaction achieved with zero rollback requests"
+      "Revived and completed a baton-dropped project with zero continuity from previous management.",
+      "Reconstructed all documentation, backlog, user stories, and workflows from scratch.",
+      "Restored trust and alignment across design, development, and QA departments.",
+      "Rebuilt stakeholder confidence through proactive communication and visual progress tracking.",
+      "Delivered the entire system within the committed time and scope despite unclear starting points."
+    ],
+    "procedure": [
+      "Conducted discovery sessions with stakeholders to identify missing requirements and reconstruct expectations.",
+      "Created a fresh backlog, user stories, acceptance criteria, and workflow documentation.",
+      "Planned sprints and milestones using Agile methodology for iterative progress and client feedback loops.",
+      "Led daily stand-ups, sprint reviews, and QA checkpoints to maintain transparency and progress.",
+      "Conducted guided walkthroughs for the non-technical client to simplify understanding and approval processes.",
+      "Delivered a stable, documented release with complete handover and post-deployment support."
     ],
     "difficulties": [
-      "No existing documentation or project continuity from previous PM",
-      "Reconstructing requirements from limited client feedback",
-      "Balancing technical rework with stakeholder trust recovery"
+      "No prior documentation, backlog, or code continuity from the previous project manager.",
+      "Non-technical client unfamiliar with Agile concepts and technical terminology.",
+      "Ambiguous inherited assumptions and outdated scope requiring full revalidation.",
+      "Balancing technical rework with rebuilding stakeholder trust and confidence.",
+      "Tight delivery timeline for a completely reconstructed system."
     ],
     "lessons_learned": [
-      "Always maintain traceable project documentation and backups",
-      "Establish early stakeholder checkpoints post-handover",
-      "Reassess assumptions — never rely on inherited artifacts blindly"
+      "Always validate assumptions — never trust inherited artifacts without verification.",
+      "Maintain clear, traceable project documentation and backups for future continuity.",
+      "Establish early stakeholder checkpoints to rebuild confidence after a handover.",
+      "Simplify communication and use visual aids for non-technical stakeholders.",
+      "Diplomacy and technical clarity are equally vital in revival projects.",
+      "Never underestimate the power of structured documentation — it’s the backbone of continuity."
     ],
     "image": "./images/vendix.jpg"
   },
   {
-    "title": "Employee Management",
+    "title": "Employee Portal",
     "organization": "Immentia",
     "duration": "Nov 2024 – Apr 2025",
     "methodology": "Hybrid",
     "team_size": "6",
     "role": "Technical Project Manager",
-    "summary": "SaaS HR platform covering onboarding, roles/shifts, payroll, and compliance; combined waterfall planning with iterative delivery ceremonies.",
+    "summary": "As the Technical Project Manager, I led the development of a comprehensive SaaS HR platform covering onboarding, roles/shifts, payroll, and compliance. I implemented a Hybrid methodology, combining Waterfall planning for compliance-sensitive modules with iterative delivery ceremonies for user-facing features. I guided a 6-person cross-functional team through structured backlog management, sprint execution, and milestone reviews, ensuring alignment between technical, compliance, and business stakeholders. My approach prioritized reducing administrative overhead, maintaining regulatory standards, and delivering a scalable, intuitive platform with high adoption and minimal disruption to ongoing HR operations.",
     "outcomes": [
-      "Reduced HR admin overhead; improved engagement",
-      "Scalable, intuitive platform meeting compliance needs",
-      "Cross-department coordination & risk management"
+      "Significantly reduced HR administrative overhead while improving employee engagement.",
+      "Delivered a scalable, intuitive platform that met complex compliance requirements.",
+      "Enabled seamless cross-department coordination and risk management.",
+      "Provided clear visibility on project progress through structured updates and stakeholder reports.",
+      "Ensured adoption of core HR workflows across teams with minimal training required."
     ],
     "achievements": [
-      "Balanced documentation with sprint execution",
-      "Delivered core HR workflows with high adoption",
-      "Established change control and RAG tracking"
+      "Balanced thorough documentation with iterative sprint execution to meet compliance and functional goals.",
+      "Delivered core HR workflows with high adoption across departments.",
+      "Established robust change control processes and RAG status tracking for transparency and risk mitigation.",
+      "Coordinated cross-departmental dependencies, aligning engineering, compliance, and HR teams effectively.",
+      "Implemented a repeatable delivery cadence combining Waterfall and Agile principles for hybrid project success."
+    ],
+    "procedure": [
+      "Analyzed regulatory and operational requirements to design compliance-aligned workflows.",
+      "Planned project milestones using Waterfall for compliance-critical modules and Agile sprints for user-facing features.",
+      "Defined backlog items with clear acceptance criteria, balancing speed of delivery with documentation needs.",
+      "Conducted regular stand-ups, sprint reviews, and milestone checkpoints to maintain stakeholder alignment.",
+      "Managed data migration planning and edge cases to ensure smooth transition from legacy systems.",
+      "Delivered documented releases with proper handover, training guides, and operational support."
     ],
     "difficulties": [
-      "Complex compliance rules across workflows",
-      "Data migration edge cases",
-      "Coordinating shifts across departments"
+      "Complex compliance rules that required strict audit and regulatory adherence.",
+      "Data migration challenges with edge cases across multiple HR systems.",
+      "Coordinating workflows and approvals across several departments with different priorities.",
+      "Balancing speed of delivery with the need for extensive documentation and process verification.",
+      "Ensuring adoption while minimizing operational disruption in a live HR environment."
     ],
     "lessons_learned": [
-      "Hybrid is ideal for regulated SaaS domains",
-      "Bake compliance into acceptance criteria",
-      "Pilot migrations before full cutover"
+      "Hybrid methodology is ideal for regulated SaaS domains, balancing compliance and delivery speed.",
+      "Integrate compliance into acceptance criteria from the start to avoid rework.",
+      "Pilot migrations before full cutover to mitigate data risks.",
+      "Maintain transparent progress reporting to align cross-functional stakeholders.",
+      "Structured documentation combined with iterative execution ensures both quality and agility."
     ],
     "image": "./images/portal.jpg"
   },
@@ -66,26 +99,42 @@
     "methodology": "Agile",
     "team_size": "4",
     "role": "Technical Project Manager",
-    "summary": "Community reviews & scam reporting; prioritized authentication, moderation, fraud detection with iterative delivery and stakeholder updates.",
+    "summary": "As the Technical Project Manager, I led the development of Scam Soldier, a platform focused on community reviews and scam reporting. The project required prioritizing authentication, moderation, and fraud detection while balancing user freedom and security. I managed a 4-person Agile team, overseeing backlog creation, sprint planning, and iterative delivery. I also maintained close stakeholder communication through demos and updates, ensuring alignment on high-value features. My leadership ensured that the platform was delivered with robust moderation capabilities, clear operational documentation, and incremental feature rollout to enable safer online decision-making.",
     "outcomes": [
-      "Launched a platform to enable safer online decisions",
-      "High-value features shipped incrementally",
-      "Established moderation and ops documentation"
+      "Launched a platform that empowers users to make safer online decisions.",
+      "High-value trust and safety features delivered incrementally to ensure quality and feedback integration.",
+      "Established comprehensive moderation and operations documentation for long-term sustainability.",
+      "Improved fraud detection capabilities while maintaining user experience and platform freedom.",
+      "Enhanced stakeholder confidence through frequent demos, status updates, and clear communication."
     ],
     "achievements": [
-      "Rapid iteration on core trust & safety features",
-      "Stakeholder alignment via demos and updates",
-      "Metrics-driven prioritization of backlog"
+      "Rapid iteration and deployment of core trust and safety features.",
+      "Maintained alignment between development, product, and stakeholders through regular demos and updates.",
+      "Implemented metrics-driven prioritization of backlog items for maximum impact.",
+      "Developed operational guidelines for moderation and abuse handling to support future scalability.",
+      "Balanced security requirements with usability to deliver a user-friendly platform."
+    ],
+    "procedure": [
+      "Analyzed platform risks and defined critical authentication, moderation, and fraud detection requirements.",
+      "Created a prioritized backlog based on risk, impact, and user needs.",
+      "Planned and executed sprints iteratively, shipping high-value features in short cycles.",
+      "Conducted regular demos and feedback sessions with stakeholders to maintain alignment.",
+      "Monitored and adjusted fraud detection signals and moderation rules based on real-world usage.",
+      "Delivered documented operational procedures and moderation guidelines for sustainable management."
     ],
     "difficulties": [
-      "Balancing moderation with user freedom",
-      "Fraud signal tuning and false positives",
-      "Preventing spam & abuse at scale"
+      "Balancing moderation and fraud detection without limiting legitimate user freedom.",
+      "Tuning fraud signals to minimize false positives while maintaining platform integrity.",
+      "Preventing spam and abusive behavior at scale across the platform.",
+      "Rapidly iterating on critical features while ensuring system stability.",
+      "Maintaining stakeholder confidence through transparent updates in a high-stakes environment."
     ],
     "lessons_learned": [
-      "Define clear community guidelines early",
-      "Iterate fraud models with real-world data",
-      "Automate abuse handling where feasible"
+      "Define clear community guidelines early to guide platform development and moderation.",
+      "Iterate fraud detection models using real-world data for continuous improvement.",
+      "Automate abuse handling where feasible to maintain efficiency and consistency.",
+      "Frequent demos and updates build stakeholder trust and ensure alignment on priorities.",
+      "Balance usability with security to deliver a platform that is both safe and user-friendly."
     ],
     "image": "./images/scamsoldier.jpg"
   },
@@ -95,27 +144,43 @@
     "duration": "Mar 2023 – Sep 2023",
     "methodology": "Agile",
     "team_size": "4",
-    "role": "Technical Project Manager",
-    "summary": "Company-owned travel platform: listing search, filtering, and booking workflow; drove roadmap, backlog, sprints, and stakeholder demos with CEO.",
+    "role": "Technical Project Strategist",
+    "summary": "As the Project Strategist, I led the development of a company-owned Travel Stay Directory platform, covering listing search, filtering, and booking workflows. I managed a 4-person Agile team, driving the roadmap, backlog, sprints, and stakeholder demos with the CEO. I coordinated technical dependencies such as 3rd-party APIs for maps and payments, balanced scope versus timeline for launch readiness, and ensured performance optimization under complex search filters. My leadership ensured a functional platform with prioritized features, transparent progress tracking, and a clear focus on business value while mitigating integration and performance risks.",
     "outcomes": [
-      "Functional prototype with core listing/search features",
-      "Prioritized backlog aligned to business value",
-      "Transparent progress via sprint reviews and metrics"
+      "Delivered a functional platform with core listing, search, filtering, and booking features.",
+      "Backlog prioritized according to business value, enabling focused, high-impact development.",
+      "Transparent progress achieved through sprint reviews, metrics tracking, and CEO demos.",
+      "Identified and mitigated API integration risks, ensuring stable interactions with external systems.",
+      "Maintained performance and responsiveness under complex search and filtering operations."
     ],
     "achievements": [
-      "Established scalable architecture for future expansion",
-      "Aligned engineering/design deliverables each sprint",
-      "Maintained clear CEO communication and demos"
+      "Established a clear roadmap and sprint plan for iterative, high-value feature delivery.",
+      "Built a functional, production-ready platform prototype with core capabilities.",
+      "Aligned engineering, design, and business stakeholders on priorities through regular demos.",
+      "Defined API integration fallbacks and handled technical dependencies proactively.",
+      "Negotiated scope and timeline trade-offs using burndown charts and velocity metrics."
+    ],
+    "procedure": [
+      "Analyzed core business requirements and defined workflows for listing, search, filtering, and booking.",
+      "Planned Agile sprints, prioritized backlog, and set delivery milestones aligned to business objectives.",
+      "Managed 3rd-party API dependencies and established fallback strategies to prevent integration delays.",
+      "Conducted sprint reviews, demos, and metrics tracking to maintain stakeholder alignment and transparency.",
+      "Monitored platform performance under complex search/filter loads and optimized for responsiveness.",
+      "Delivered a production-ready functional prototype with documented workflows and clear handover."
     ],
     "difficulties": [
-      "3rd-party API dependencies for maps & payments",
-      "Balancing scope vs. timeline for launch readiness",
-      "Performance considerations under search filters"
+      "Managing dependencies on external APIs for maps and payment processing.",
+      "Balancing ambitious scope against a tight timeline for launch readiness.",
+      "Ensuring performance and responsiveness under complex search and filtering operations.",
+      "Aligning CEO expectations with technical feasibility and iterative delivery cadence.",
+      "Maintaining a consistent delivery pace while mitigating integration and performance risks."
     ],
     "lessons_learned": [
-      "Define API integration risks early with fallbacks",
-      "Keep MVP scope tight and value-driven",
-      "Use burndown/velocity to negotiate scope change"
+      "Define API integration risks early and plan fallback strategies to reduce delays.",
+      "Keep MVP scope tight and value-driven to maximize business impact.",
+      "Use burndown and velocity metrics to negotiate scope adjustments and maintain delivery confidence.",
+      "Regular demos and transparent reporting build stakeholder trust and alignment.",
+      "Prioritize performance testing early to avoid late-stage bottlenecks in search and booking workflows."
     ],
     "image": "./images/traveldirectory.jpg"
   },
@@ -125,27 +190,43 @@
     "duration": "Sep 2023 – Jan 2024",
     "methodology": "Agile",
     "team_size": "3",
-    "role": "Technical Project Manager",
-    "summary": "Healthcare messaging platform integrating Gmail/Yahoo/Apple Mail with OAuth 2.0; managed compliance, cadence, and Slack-based stakeholder updates.",
+    "role": "Technical Project Strategist",
+    "summary": "As the Project Strategist, I led the development of Hona AI, a healthcare messaging platform integrating Gmail, Yahoo, and Apple Mail via OAuth 2.0. I managed a 3-person Agile team, overseeing backlog management, sprint planning, and stakeholder communication via Slack. I coordinated complex technical integrations, ensured compliance with HIPAA regulations, and maintained a strict security and audit framework. My approach balanced usability with regulatory requirements, delivered secure multi-email integration, and provided structured documentation and handover for future continuation.",
     "outcomes": [
-      "Secure OAuth multi-email integration delivered",
-      "70% scope completed within client timebox",
-      "Documented modules & handover for continuation"
+      "Delivered secure OAuth multi-email integration across multiple providers.",
+      "Completed major part of scope within the client’s timebox while maintaining quality and compliance.",
+      "Documented modules and processes for smooth handover and future maintenance.",
+      "Maintained HIPAA-aligned practices and ensured full auditability of system actions.",
+      "Enabled stakeholders to track progress clearly through structured Slack updates and iteration reviews."
     ],
     "achievements": [
-      "Maintained HIPAA-aligned practices and auditability",
-      "Kept cadence with clear acceptance criteria",
-      "Stakeholder visibility through Slack updates"
+      "Maintained compliance and security without compromising on usability or functionality.",
+      "Kept development cadence aligned with clear acceptance criteria and stakeholder expectations.",
+      "Successfully mitigated risks related to API rate limits and authentication complexities.",
+      "Produced comprehensive documentation to facilitate future handover and scaling.",
+      "Delivered a secure, functional platform on time, meeting both client and regulatory requirements."
+    ],
+    "procedure": [
+      "Analyzed integration requirements and defined secure authentication workflows for Gmail, Yahoo, and Apple Mail.",
+      "Planned Agile sprints with clear backlog prioritization and acceptance criteria.",
+      "Monitored OAuth token handling, API rate limits, and provider-specific integration nuances.",
+      "Implemented HIPAA-aligned practices and iterative security validation for all modules.",
+      "Maintained stakeholder visibility via Slack updates, sprint reviews, and demo sessions.",
+      "Delivered documented releases with structured handover guides for ongoing maintenance."
     ],
     "difficulties": [
-      "OAuth token handling and API rate limits",
-      "Balancing compliance with usability",
-      "Integration complexity across email providers"
+      "Handling OAuth tokens and provider-specific API rate limits reliably.",
+      "Balancing strict compliance and security requirements with usability for end-users.",
+      "Managing integration complexity across multiple email providers.",
+      "Maintaining development cadence while mitigating security and compliance risks.",
+      "Ensuring auditability and regulatory alignment without slowing feature delivery."
     ],
     "lessons_learned": [
-      "Plan capacity for auth/compliance spikes",
-      "Proactively monitor API quotas and throttling",
-      "Use iteration gates for security validation"
+      "Plan capacity and time for auth/compliance spikes early in the project.",
+      "Proactively monitor API quotas and throttling to avoid integration delays.",
+      "Use iteration gates for security and compliance validation before feature releases.",
+      "Balance usability with regulatory requirements for end-user adoption.",
+      "Clear documentation and handover are essential for compliance-heavy platforms."
     ],
     "image": "./images/honaai.jpg"
   },
@@ -155,27 +236,43 @@
     "duration": "Jan 2024 – May 2024",
     "methodology": "Hybrid",
     "team_size": "5",
-    "role": "Project Manager",
-    "summary": "Bilingual platform for agave producers/importers with onboarding, lot tracking, certificate uploads, and brand-aligned UX; guided roadmap and UAT.",
+    "role": "Technical Project Strategist",
+    "summary": "As the Project Strategist, I led the development of Maguey Exchange, a bilingual platform for agave producers and importers. The platform included onboarding, lot tracking, certificate uploads, and a brand-aligned UX. I managed a 5-person team using a Hybrid methodology, combining structured planning for critical compliance and brand elements with iterative delivery for other modules. I guided roadmap, backlog prioritization, sprint execution, and UAT, ensuring English–Spanish parity, scalable data models, and a brand-consistent experience across web and mobile, while mitigating technical and UX edge cases.",
     "outcomes": [
-      "MVP with English–Spanish parity delivered",
-      "Resolved photo upload and lot-ID flow issues",
-      "Prepared post-MVP enhancement roadmap"
+      "Delivered an MVP with full English–Spanish feature parity.",
+      "Resolved photo upload and lot-ID flow issues for reliable data tracking.",
+      "Prepared a post-MVP enhancement roadmap for future iterations.",
+      "Established scalable data models for lots and certificates to support growth.",
+      "Maintained a consistent brand-aligned UX across web and mobile platforms."
     ],
     "achievements": [
-      "Brand-consistent UX across web & mobile",
-      "Structured UAT and feedback incorporation",
-      "Scalable data model for lots/certificates"
+      "Structured UAT and feedback incorporation to ensure quality and usability.",
+      "Balanced brand constraints with Agile iterations to deliver functional features without compromising UX.",
+      "Validated bilingual UX early using prototypes to prevent downstream issues.",
+      "Instrumented uploads to trace failures and ensure operational reliability.",
+      "Delivered a functional, bilingual platform with documented workflows and clear handover."
+    ],
+    "procedure": [
+      "Analyzed bilingual content requirements and designed workflows for onboarding, lot tracking, and certificate uploads.",
+      "Planned sprints and milestones using Hybrid methodology, combining structured planning with iterative delivery.",
+      "Monitored edge cases in mobile photo uploads and resolved data flow issues.",
+      "Validated brand alignment and bilingual UX using prototypes and early testing.",
+      "Conducted structured UAT sessions and incorporated feedback to refine workflows and UX.",
+      "Delivered the MVP with documented processes and prepared a roadmap for post-MVP enhancements."
     ],
     "difficulties": [
-      "Bilingual content sync across flows",
-      "Edge cases in photo handling on mobile",
-      "Balancing fixed brand elements with agility"
+      "Ensuring bilingual content synchronization across multiple workflows and screens.",
+      "Handling mobile edge cases for photo uploads and lot-ID tracking.",
+      "Balancing fixed brand design constraints with Agile iteration flexibility.",
+      "Maintaining consistent UX across web and mobile while scaling the data model.",
+      "Coordinating cross-functional feedback and validation for a bilingual, compliance-sensitive platform."
     ],
     "lessons_learned": [
-      "Validate bilingual UX early with prototypes",
-      "Instrument uploads to trace failures",
-      "Separate brand constraints from iterative backlog"
+      "Validate bilingual UX early with prototypes to catch issues before full implementation.",
+      "Separate brand constraints from iterative backlog items to maintain flexibility.",
+      "Instrument uploads and data flows to trace and resolve failures efficiently.",
+      "Hybrid methodology helps balance structured planning and iterative delivery for regulated, brand-sensitive platforms.",
+      "Clear documentation and roadmap preparation are essential for post-MVP success."
     ],
     "image": "./images/maguey.jpg"
   }
